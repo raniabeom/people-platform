@@ -19,24 +19,24 @@
 
     <!-- Navigation -->
     <nav>
-        <div class="logo">
-            Xineon
-        </div>
+        <div class="nav-inner container">
+            <a class="logo" href="#product">Xineon</a>
 
-        <div class="nav-right">
-            <ul class="nav-links">
-                <li><a href="#">Product</a></li>
-                <li><a href="#">Solutions</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
+            <div class="nav-right">
+                <ul class="nav-links">
+                    <li><a href="#product">Product</a></li>
+                    <li><a href="#philosophy">Solutions</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
 
-            <button class="nav-cta">Book Demo</button>
+                <a class="nav-cta" href="#contact">Book Demo</a>
+            </div>
         </div>
     </nav>
 
     <!-- Hero -->
-    <section class="hero">
+    <section class="hero" id="product">
 
         <div class="container hero-content fade-up">
             <h1>Built on understanding, <br>not assumptions.</h1>
@@ -46,16 +46,26 @@
             </p>
 
             <div class="hero-buttons">
-                <button>Book a Demo</button>
-                <button class="secondary-btn">See Features</button>
+                <a class="btn-primary" href="#contact">Book a Demo</a>
+                <a class="btn-secondary" href="#philosophy">See Features</a>
+            </div>
+
+            <div class="hero-trust">
+                <p class="hero-trust-label">Trusted by forward-thinking organizations</p>
+                <ul class="trust-logos" aria-label="Trusted by">
+                    <li>Vertex</li>
+                    <li>Helios</li>
+                    <li>Northbridge</li>
+                    <li>Altimeter</li>
+                </ul>
             </div>
         </div>
 
     </section>
 
     <!-- About Xineon -->
-    <section class="section about">
-        <div class="container about-grid fade-up">
+    <section class="section about" id="about">
+        <div class="container page-grid fade-up">
             <h2 class="about-title">About Xineon</h2>
 
             <div class="about-body">
@@ -73,8 +83,8 @@
     </section>
 
     <!-- Our Philosophy -->
-    <section class="section philosophy">
-        <div class="container philosophy-content">
+    <section class="section philosophy" id="philosophy">
+        <div class="container page-grid">
             <h2 class="philosophy-title fade-up">Our Philosophy</h2>
 
             <div class="philosophy-steps">
@@ -103,6 +113,18 @@
             </div>
         </div>
     </section>
+
+    <!-- Contact -->
+    <footer class="site-footer" id="contact">
+        <div class="container page-grid">
+            <p class="footer-label">Contact</p>
+
+            <div class="footer-body">
+                <p>Ready to bring clarity to your organization?</p>
+                <a href="mailto:hello@xineon.com">hello@xineon.com</a>
+            </div>
+        </div>
+    </footer>
 
 </body>
 </html>
