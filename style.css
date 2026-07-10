@@ -1,3 +1,27 @@
+:root {
+    --color-white: #ffffff;
+    --color-gray-900: #111827;
+    --color-gray-700: #374151;
+    --color-gray-500: #6b7280;
+    --color-gray-400: #9ca3af;
+    --color-gray-300: #d1d5db;
+    --color-gray-200: #e5e7eb;
+    --color-gray-100: #f3f4f6;
+    --color-gray-50: #f9fafb;
+    --color-accent: #2563eb;
+    --color-gray-900-rgb: 17, 24, 39;
+    --color-nav-bg: rgba(255, 255, 255, 0.85);
+    --color-nav-border: rgba(241, 245, 249, 0.9);
+
+    --container-padding-x: 48px;
+    --label-col-width: 200px;
+    --page-grid-gap: 40px;
+    --page-grid-label-offset: 240px;
+    --body-rail-shift: 40px;
+    --btn-group-width: 331px;
+    --body-text-max: 720px;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -10,8 +34,8 @@ html {
 
 body {
     font-family: "Geist", sans-serif;
-    background: #ffffff;
-    color: #111827;
+    background: var(--color-white);
+    color: var(--color-gray-900);
     -webkit-font-smoothing: antialiased;
 }
 
@@ -21,13 +45,17 @@ body {
     width: 100%;
     max-width: 1280px;
     margin: 0 auto;
-    padding: 0 48px;
+    padding: 0 var(--container-padding-x);
+
+    container-type: inline-size;
+    --content-inner-width: calc(100cqw - var(--container-padding-x) * 2);
+    --content-rail-start: calc((var(--content-inner-width) - var(--btn-group-width)) / 2);
 }
 
 .page-grid {
     display: grid;
-    grid-template-columns: 200px minmax(0, 520px);
-    gap: 40px;
+    grid-template-columns: var(--label-col-width) 1fr;
+    gap: var(--page-grid-gap);
     align-items: start;
     text-align: left;
 }
@@ -73,11 +101,11 @@ nav {
 
     width: 100%;
 
-    background: rgba(255, 255, 255, 0.85);
+    background: var(--color-nav-bg);
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
 
-    border-bottom: 1px solid rgba(241, 245, 249, 0.9);
+    border-bottom: 1px solid var(--color-nav-border);
 }
 
 .nav-inner {
@@ -94,7 +122,7 @@ nav {
     font-weight: 600;
     letter-spacing: -0.01em;
     text-decoration: none;
-    color: #111827;
+    color: var(--color-gray-900);
 }
 
 .nav-right {
@@ -112,7 +140,7 @@ nav {
 
 .nav-links a {
     text-decoration: none;
-    color: #6b7280;
+    color: var(--color-gray-500);
     font-size: 14px;
     font-weight: 500;
 
@@ -120,7 +148,7 @@ nav {
 }
 
 .nav-links a:hover {
-    color: #2563eb;
+    color: var(--color-accent);
 }
 
 .nav-cta {
@@ -128,8 +156,8 @@ nav {
     align-items: center;
     justify-content: center;
 
-    background: #111827;
-    color: #ffffff;
+    background: var(--color-gray-900);
+    color: var(--color-white);
     text-decoration: none;
 
     border: none;
@@ -148,7 +176,7 @@ nav {
 }
 
 .nav-cta:hover {
-    background: #374151;
+    background: var(--color-gray-700);
 }
 
 /* ---------- Hero ---------- */
@@ -182,7 +210,7 @@ nav {
     font-size: 18px;
     font-weight: 400;
     line-height: 1.65;
-    color: #6b7280;
+    color: var(--color-gray-500);
 
     max-width: 460px;
     margin: 0 auto 44px;
@@ -200,6 +228,21 @@ nav {
     .hero p {
         max-width: none;
     }
+
+    .hero-buttons {
+        width: var(--btn-group-width);
+        margin-left: var(--content-rail-start);
+        margin-right: auto;
+        justify-content: flex-start;
+    }
+
+    .about-body,
+    .philosophy-steps,
+    .footer-body {
+        max-width: var(--body-text-max);
+        margin-left: max(0px, calc(var(--content-rail-start) - var(--page-grid-label-offset) - var(--body-rail-shift)));
+        margin-right: 0;
+    }
 }
 
 .hero-buttons {
@@ -215,7 +258,7 @@ nav {
 .hero-trust-label {
     font-size: 13px;
     font-weight: 500;
-    color: #9ca3af;
+    color: var(--color-gray-500);
     letter-spacing: 0.01em;
 
     margin-bottom: 20px;
@@ -235,7 +278,7 @@ nav {
     font-size: 14px;
     font-weight: 500;
     letter-spacing: -0.01em;
-    color: #d1d5db;
+    color: var(--color-gray-500);
 }
 
 .btn-primary,
@@ -263,15 +306,15 @@ nav {
 }
 
 .btn-primary {
-    background: #111827;
-    color: #ffffff;
+    background: var(--color-gray-900);
+    color: var(--color-white);
     border: none;
 }
 
 .btn-primary:hover {
-    background: #374151;
+    background: var(--color-gray-700);
     transform: translateY(-1px);
-    box-shadow: 0 4px 14px rgba(17, 24, 39, 0.12);
+    box-shadow: 0 4px 14px rgba(var(--color-gray-900-rgb), 0.12);
 }
 
 .btn-primary:active {
@@ -280,14 +323,14 @@ nav {
 }
 
 .btn-secondary {
-    background: #ffffff;
-    color: #111827;
-    border: 1px solid #e5e7eb;
+    background: var(--color-white);
+    color: var(--color-gray-900);
+    border: 1px solid var(--color-gray-200);
 }
 
 .btn-secondary:hover {
-    background: #f9fafb;
-    border-color: #d1d5db;
+    background: var(--color-gray-50);
+    border-color: var(--color-gray-300);
     transform: translateY(-1px);
     box-shadow: 0 4px 14px rgba(0, 0, 0, 0.05);
 }
@@ -305,11 +348,11 @@ nav {
 .philosophy-step h3,
 .footer-label {
     font-family: "Geist Mono", monospace;
-    font-size: 15px;
+    font-size: 17px;
     font-weight: 500;
     line-height: 1.7;
     letter-spacing: 0;
-    color: #6b7280;
+    color: var(--color-gray-500);
 }
 
 .mono-label::before,
@@ -327,10 +370,10 @@ nav {
 }
 
 .about-body p {
-    font-size: 19px;
+    font-size: 18px;
     line-height: 1.625;
     letter-spacing: -0.015em;
-    color: #6b7280;
+    color: var(--color-gray-500);
 }
 
 .about-body p + p {
@@ -347,6 +390,10 @@ nav {
     padding: 28px 0;
 }
 
+.philosophy-step:first-child {
+    padding-top: 1px;
+}
+
 .philosophy-step h3 {
     margin-bottom: 6px;
 }
@@ -355,7 +402,7 @@ nav {
     font-size: 17px;
     line-height: 1.625;
     letter-spacing: -0.01em;
-    color: #6b7280;
+    color: var(--color-gray-500);
 }
 
 .philosophy-divider {
@@ -363,13 +410,12 @@ nav {
     align-items: center;
     padding: 2px 0;
 
-    border-top: 1px solid #f3f4f6;
+    border-top: 1px solid var(--color-gray-100);
 }
 
 .philosophy-divider span {
     font-size: 13px;
-    color: #9ca3af;
-    opacity: 0.45;
+    color: var(--color-gray-400);
     line-height: 1;
 
     padding-top: 14px;
@@ -380,7 +426,7 @@ nav {
 .site-footer {
     padding: 72px 0 96px;
 
-    border-top: 1px solid #f3f4f6;
+    border-top: 1px solid var(--color-gray-100);
 }
 
 .footer-label {
@@ -391,7 +437,7 @@ nav {
     font-size: 19px;
     line-height: 1.625;
     letter-spacing: -0.015em;
-    color: #6b7280;
+    color: var(--color-gray-500);
 
     margin-bottom: 12px;
 }
@@ -399,25 +445,33 @@ nav {
 .footer-body a {
     font-size: 17px;
     font-weight: 500;
-    color: #111827;
+    color: var(--color-gray-900);
     text-decoration: none;
 
     transition: color 0.2s;
 }
 
 .footer-body a:hover {
-    color: #2563eb;
+    color: var(--color-accent);
 }
 
 @media (max-width: 768px) {
     .container {
         padding: 0 32px;
+        --container-padding-x: 32px;
     }
 
     .page-grid {
         display: flex;
         flex-direction: column;
         gap: 20px;
+    }
+
+    .about-body,
+    .philosophy-steps,
+    .footer-body {
+        max-width: none;
+        margin: 0;
     }
 
     .section {
@@ -486,5 +540,12 @@ nav {
         display: flex;
         flex-direction: column;
         gap: 24px;
+    }
+
+    .about-body,
+    .philosophy-steps,
+    .footer-body {
+        max-width: none;
+        margin: 0;
     }
 }
