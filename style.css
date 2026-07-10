@@ -151,6 +151,11 @@ nav {
     color: var(--color-accent);
 }
 
+.nav-links a.is-active,
+.nav-links a.is-active:hover {
+    color: var(--color-gray-900);
+}
+
 .nav-cta {
     display: inline-flex;
     align-items: center;
@@ -237,6 +242,7 @@ nav {
     }
 
     .about-body,
+    .who-body,
     .philosophy-steps,
     .footer-body {
         max-width: var(--body-text-max);
@@ -344,6 +350,7 @@ nav {
 
 .mono-label,
 .about-title,
+.who-title,
 .philosophy-title,
 .philosophy-step h3,
 .footer-label {
@@ -357,6 +364,7 @@ nav {
 
 .mono-label::before,
 .about-title::before,
+.who-title::before,
 .philosophy-title::before,
 .philosophy-step h3::before,
 .footer-label::before {
@@ -365,11 +373,13 @@ nav {
 
 /* ---------- About ---------- */
 
-.about-title {
+.about-title,
+.who-title {
     padding-top: 1px;
 }
 
-.about-body p {
+.about-body p,
+.who-body p {
     font-size: 18px;
     line-height: 1.625;
     letter-spacing: -0.015em;
@@ -468,6 +478,7 @@ nav {
     }
 
     .about-body,
+    .who-body,
     .philosophy-steps,
     .footer-body {
         max-width: none;
@@ -513,7 +524,8 @@ nav {
         font-size: 13px;
     }
 
-    .about-body p {
+    .about-body p,
+    .who-body p {
         font-size: 17px;
         line-height: 1.625;
     }
@@ -543,6 +555,7 @@ nav {
     }
 
     .about-body,
+    .who-body,
     .philosophy-steps,
     .footer-body {
         max-width: none;
