@@ -26,4 +26,12 @@ document.addEventListener("DOMContentLoaded", () => {
             observer.observe(el);
         }
     });
+
+    const yearTargets = document.querySelectorAll("[data-current-year]");
+    if (yearTargets.length) {
+        const currentYear = String(new Date().getFullYear());
+        yearTargets.forEach((el) => {
+            el.textContent = currentYear;
+        });
+    }
 });
