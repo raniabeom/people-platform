@@ -17,9 +17,10 @@
     --label-col-width: 200px;
     --page-grid-gap: 40px;
     --page-grid-label-offset: 240px;
-    --body-rail-shift: 40px;
+    --body-rail-shift: 110px;
     --btn-group-width: 331px;
-    --body-text-max: 720px;
+    --body-text-max: 56rem;
+    --hero-subtitle-max: 40rem;
 }
 
 * {
@@ -140,6 +141,58 @@ nav {
     display: flex;
     align-items: center;
     gap: 40px;
+}
+
+.nav-actions {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.lang-toggle {
+    display: inline-flex;
+    align-items: center;
+    padding: 3px;
+    gap: 2px;
+
+    border: 1px solid var(--color-gray-100);
+    border-radius: 8px;
+    background: var(--color-gray-50);
+}
+
+.lang-toggle__btn {
+    appearance: none;
+    margin: 0;
+    padding: 6px 10px;
+
+    border: none;
+    border-radius: 6px;
+    background: transparent;
+
+    font-family: "Geist Mono", monospace;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    line-height: 1;
+    color: var(--color-gray-500);
+
+    cursor: pointer;
+    transition: color 0.15s ease, background 0.15s ease;
+}
+
+.lang-toggle__btn:hover {
+    color: var(--color-gray-900);
+}
+
+.lang-toggle__btn.is-active {
+    background: var(--color-white);
+    color: var(--color-gray-900);
+    box-shadow: 0 1px 2px rgba(var(--color-gray-900-rgb), 0.06);
+}
+
+.lang-toggle__btn:focus-visible {
+    outline: 2px solid var(--color-accent);
+    outline-offset: 2px;
 }
 
 .nav-links {
@@ -326,7 +379,7 @@ nav {
     line-height: 1.65;
     color: var(--color-gray-500);
 
-    max-width: 460px;
+    max-width: var(--hero-subtitle-max);
     margin: 0 auto 44px;
 }
 
@@ -556,8 +609,8 @@ nav {
     .who-body,
     .philosophy-steps,
     .footer-body {
-        max-width: var(--body-text-max);
-        margin-left: max(0px, calc(var(--content-rail-start) - var(--page-grid-label-offset) - var(--body-rail-shift)));
+        max-width: min(var(--body-text-max), 100%);
+        margin-left: 0;
         margin-right: 0;
     }
 
