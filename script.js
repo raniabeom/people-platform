@@ -34,4 +34,22 @@ document.addEventListener("DOMContentLoaded", () => {
             el.textContent = currentYear;
         });
     }
+
+    document.querySelectorAll(".nav-item--products").forEach((item) => {
+        const trigger = item.querySelector(".nav-link");
+        if (!trigger) return;
+
+        const setExpanded = (open) => {
+            trigger.setAttribute("aria-expanded", open ? "true" : "false");
+        };
+
+        item.addEventListener("mouseenter", () => setExpanded(true));
+        item.addEventListener("mouseleave", () => setExpanded(false));
+        item.addEventListener("focusin", () => setExpanded(true));
+        item.addEventListener("focusout", (event) => {
+            if (!item.contains(event.relatedTarget)) {
+                setExpanded(false);
+            }
+        });
+    });
 });

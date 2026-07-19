@@ -144,9 +144,14 @@ nav {
 
 .nav-links {
     display: flex;
+    align-items: center;
     gap: 32px;
 
     list-style: none;
+}
+
+.nav-links > li {
+    position: relative;
 }
 
 .nav-links a {
@@ -164,6 +169,72 @@ nav {
 
 .nav-links a.is-active,
 .nav-links a.is-active:hover {
+    color: var(--color-gray-900);
+}
+
+.nav-item--products .nav-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.nav-submenu {
+    position: absolute;
+    top: calc(100% + 14px);
+    left: 50%;
+    transform: translateX(-50%) translateY(-4px);
+
+    min-width: 236px;
+    margin: 0;
+    padding: 8px;
+
+    list-style: none;
+
+    background: var(--color-white);
+    border: 1px solid var(--color-gray-100);
+    border-radius: 10px;
+    box-shadow: 0 14px 36px rgba(var(--color-gray-900-rgb), 0.08);
+
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+
+    transition: opacity 0.18s ease, transform 0.18s ease, visibility 0.18s ease;
+    z-index: 120;
+}
+
+.nav-submenu::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -14px;
+    height: 14px;
+}
+
+.nav-item--products:hover .nav-submenu,
+.nav-item--products:focus-within .nav-submenu {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+    transform: translateX(-50%) translateY(0);
+}
+
+.nav-submenu a {
+    display: block;
+    padding: 10px 12px;
+    border-radius: 7px;
+    white-space: nowrap;
+    color: var(--color-gray-700);
+}
+
+.nav-submenu a:hover {
+    background: var(--color-gray-50);
+    color: var(--color-gray-900);
+}
+
+.nav-submenu a.is-active {
+    background: var(--color-gray-50);
     color: var(--color-gray-900);
 }
 
