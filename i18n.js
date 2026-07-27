@@ -146,7 +146,7 @@
             "hris.overview.p1":
                 "Most HR systems ask you to adapt to their structure. Xineon HRIS starts with how your organization already works — then brings it together in one place.",
             "hris.mockup.alt":
-                "Xineon HRIS directory — employee list with filters, status, and org navigation",
+                "Xineon HRIS Employees — snapshot metrics and employee directory",
             "hris.features.title": "Core Features",
             "hris.features.people.title": "People",
             "hris.features.people.body":
@@ -339,7 +339,7 @@
             "hris.overview.p1":
                 "대부분의 HR 시스템은 그들의 구조에 맞추라고 합니다. Xineon HRIS는 조직이 이미 일하는 방식에서 시작해 — 그것을 한곳에 모읍니다.",
             "hris.mockup.alt":
-                "Xineon HRIS 디렉터리 — 필터, 상태, 조직 탐색이 있는 임직원 목록",
+                "Xineon HRIS Employees — 스냅샷 지표와 임직원 디렉터리",
             "hris.features.title": "핵심 기능",
             "hris.features.people.title": "임직원",
             "hris.features.people.body":
