@@ -8,6 +8,7 @@
             "nav.home": "Home",
             "nav.product": "Product",
             "nav.hris": "HRIS",
+            "nav.payroll": "Payroll",
             "nav.ats": "ATS",
             "nav.performance": "Performance Management",
             "nav.pricing": "Pricing",
@@ -182,6 +183,18 @@
             "ats.soon.p2":
                 'Want early access or a conversation about hiring workflows? Reach us at <a class="text-link" href="mailto:hello@xineon.io">hello@xineon.io</a>.',
 
+            "payroll.meta":
+                "Xineon Payroll — payroll add-on built to work with Xineon HRIS. Coming soon.",
+            "payroll.title": "Xineon Payroll",
+            "payroll.hero.title": "Payroll that stays clear.",
+            "payroll.hero.subtitle":
+                "Xineon Payroll is an add-on in development—pay runs and payslips without the spreadsheet maze.",
+            "payroll.soon.title": "Coming Soon",
+            "payroll.soon.p1":
+                'Payroll is being built as an add-on to <a class="text-link" href="hris.html">Xineon HRIS</a>—connected to attendance and leave, designed for teams that want clarity without a separate payroll spreadsheet.',
+            "payroll.soon.p2":
+                'Interested in early access or payroll workflows? Reach us at <a class="text-link" href="mailto:hello@xineon.io">hello@xineon.io</a>.',
+
             "perf.meta":
                 "Xineon Performance Management — goals, feedback, and reviews designed for clarity. Coming soon.",
             "perf.title": "Xineon Performance Management",
@@ -201,6 +214,7 @@
             "nav.home": "홈",
             "nav.product": "제품",
             "nav.hris": "HRIS",
+            "nav.payroll": "급여",
             "nav.ats": "ATS",
             "nav.performance": "성과 관리",
             "nav.pricing": "가격",
@@ -374,6 +388,18 @@
                 'ATS도 <a class="text-link" href="hris.html">Xineon HRIS</a>와 같은 기준으로 만듭니다. 채용이 실제로 어떻게 돌아가는지 이해하고, 그 위에 시스템을 설계합니다.',
             "ats.soon.p2":
                 '얼리 액세스나 채용 워크플로에 대한 대화가 필요하시면 <a class="text-link" href="mailto:hello@xineon.io">hello@xineon.io</a>로 연락해 주세요.',
+
+            "payroll.meta":
+                "Xineon 급여 — Xineon HRIS와 함께 쓰는 급여 add-on. 준비 중입니다.",
+            "payroll.title": "Xineon 급여",
+            "payroll.hero.title": "명확함이 유지되는 급여.",
+            "payroll.hero.subtitle":
+                "Xineon 급여는 개발 중인 add-on입니다—스프레드시트 미로 없이, 급여 정산과 명세서를 처리합니다.",
+            "payroll.soon.title": "준비 중",
+            "payroll.soon.p1":
+                '급여는 <a class="text-link" href="hris.html">Xineon HRIS</a>에 연결되는 add-on으로 만들어집니다—근태·휴가와 연결되고, 별도 급여 스프레드시트 없이 명확함을 원하는 팀을 위해 설계합니다.',
+            "payroll.soon.p2":
+                '얼리 액세스나 급여 워크플로에 대해 이야기하고 싶으시면 <a class="text-link" href="mailto:hello@xineon.io">hello@xineon.io</a>로 연락해 주세요.',
 
             "perf.meta":
                 "Xineon 성과 관리 — 명확함을 위한 목표, 피드백, 리뷰. 준비 중입니다.",
