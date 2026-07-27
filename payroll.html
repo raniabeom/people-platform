@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title data-i18n="philosophy.title">Our Philosophy — Xineon</title>
-    <meta name="description" data-i18n-content="philosophy.meta" content="Xineon explores real problems, seeks deep understanding, and builds software that creates lasting value—grounded in clarity over assumptions.">
-    <meta property="og:title" content="Our Philosophy — Xineon">
-    <meta property="og:description" data-i18n-content="philosophy.meta" content="Xineon explores real problems, seeks deep understanding, and builds software that creates lasting value—grounded in clarity over assumptions.">
+    <title data-i18n="payroll.title">Xineon Payroll</title>
+    <meta name="description" data-i18n-content="payroll.meta" content="Xineon Payroll is an add-on for Xineon HRIS—pay runs and payslips connected to attendance and leave, without the spreadsheet maze.">
+    <meta property="og:title" content="Xineon Payroll">
+    <meta property="og:description" data-i18n-content="payroll.meta" content="Xineon Payroll is an add-on for Xineon HRIS—pay runs and payslips connected to attendance and leave, without the spreadsheet maze.">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://xineon.io/philosophy.html">
+    <meta property="og:url" content="https://xineon.io/payroll.html">
     <meta property="og:image" content="https://xineon.io/assets/images/og-default.png">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
@@ -42,16 +42,16 @@
                 <ul class="nav-links">
                     <li><a href="index.html" data-i18n="nav.home">Home</a></li>
                     <li class="nav-item nav-item--products">
-                        <a class="nav-link" href="hris.html" aria-haspopup="true" aria-expanded="false" data-i18n="nav.product">Product</a>
+                        <a class="nav-link is-active" href="hris.html" aria-haspopup="true" aria-expanded="false" data-i18n="nav.product">Product</a>
                         <ul class="nav-submenu">
                             <li><a href="hris.html" data-i18n="nav.hris">HRIS</a></li>
-                            <li><a href="payroll.html" data-i18n="nav.payroll">Payroll</a></li>
+                            <li><a class="is-active" href="payroll.html" aria-current="page" data-i18n="nav.payroll">Payroll</a></li>
                             <li><a href="ats.html" data-i18n="nav.ats">ATS</a></li>
                             <li><a href="performance.html" data-i18n="nav.performance">Performance Management</a></li>
                         </ul>
                     </li>
                     <li><a href="pricing.html" data-i18n="nav.pricing">Pricing</a></li>
-                    <li><a class="is-active" href="philosophy.html" aria-current="page" data-i18n="nav.philosophy">Philosophy</a></li>
+                    <li><a href="philosophy.html" data-i18n="nav.philosophy">Philosophy</a></li>
                     <li><a href="about.html" data-i18n="nav.about">About</a></li>
                     <li><a href="contact.html" data-i18n="nav.contact">Contact</a></li>
                 </ul>
@@ -69,30 +69,45 @@
 
     <main>
 
-        <section class="hero">
+        <section class="hero hero--product">
+            <div class="hero-atmosphere" aria-hidden="true"></div>
             <div class="container hero-content fade-up">
-                <h1 data-i18n="philosophy.hero.title">Understanding before building.</h1>
-                <p data-i18n="philosophy.hero.subtitle">
-                    Our work follows a simple sequence: explore the real problem, understand it deeply, then build with intention.
-                </p>
+                <h1 data-i18n="payroll.hero.title">Payroll that stays clear.</h1>
             </div>
+        </section>
+
+        <section class="section about">
+            <div class="container page-grid fade-up">
+                <h2 class="about-title" data-i18n="payroll.overview.title">Overview</h2>
+                <div class="about-body">
+                    <p data-i18n="payroll.overview.p1" data-i18n-html>
+                        Xineon Payroll is an add-on to <a class="text-link" href="hris.html">Xineon HRIS</a>. It starts from attendance and leave you already track—then turns them into pay runs and payslips without a separate spreadsheet.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="product-visual fade-up">
+            <img
+                class="hero-mockup-img"
+                src="assets/images/hero-payroll-mockup.png"
+                data-i18n-alt="payroll.mockup.alt"
+                alt="Xineon Payroll — pay runs list with snapshot metrics and run statuses"
+                width="1600"
+                height="1000"
+                loading="lazy"
+                decoding="async"
+            >
         </section>
 
         <section class="section philosophy">
             <div class="container page-grid">
-                <h2 class="philosophy-title fade-up" data-i18n="philosophy.section.title">Our Philosophy</h2>
+                <h2 class="philosophy-title fade-up" data-i18n="payroll.features.title">Core Features</h2>
 
                 <div class="philosophy-steps">
                     <article class="philosophy-step fade-up">
-                        <img class="step-visual" src="assets/icons/explore.svg" alt="" width="96" height="96">
-                        <h3 data-i18n="philosophy.explore.title">Explore</h3>
-                        <p data-i18n="philosophy.explore.lead">We begin by exploring the real problem.</p>
-                        <p data-i18n="philosophy.explore.p1">
-                            Before proposing solutions, we listen—to the people who use the systems, the teams who maintain them, and the constraints that shape daily work. We map how things actually flow, not how a diagram says they should.
-                        </p>
-                        <p data-i18n="philosophy.explore.p2">
-                            Exploration means asking better questions, surfacing friction that has become invisible, and resisting the urge to jump to features. The goal is a clear picture of what is broken, what works, and what matters most.
-                        </p>
+                        <h3 data-i18n="payroll.features.runs.title">Pay Runs</h3>
+                        <p data-i18n="payroll.features.runs.body">Monthly and off-cycle runs you can review before anything goes out.</p>
                     </article>
 
                     <div class="philosophy-divider fade-up" aria-hidden="true">
@@ -100,15 +115,8 @@
                     </div>
 
                     <article class="philosophy-step fade-up">
-                        <img class="step-visual" src="assets/icons/understand.svg" alt="" width="96" height="96">
-                        <h3 data-i18n="philosophy.understand.title">Understand</h3>
-                        <p data-i18n="philosophy.understand.lead">We seek deep understanding before designing solutions.</p>
-                        <p data-i18n="philosophy.understand.p1">
-                            Understanding is more than gathering requirements. It means separating assumptions from facts, tracing cause and effect, and finding the structure beneath surface complexity.
-                        </p>
-                        <p data-i18n="philosophy.understand.p2">
-                            Inspired by the Greek concept of Noesis—pure intellectual understanding—we treat clarity as a deliverable. When the problem is truly understood, the right solution often becomes obvious.
-                        </p>
+                        <h3 data-i18n="payroll.features.payslips.title">Payslips</h3>
+                        <p data-i18n="payroll.features.payslips.body">Clear payslips for each employee—issued when the run is final.</p>
                     </article>
 
                     <div class="philosophy-divider fade-up" aria-hidden="true">
@@ -116,16 +124,29 @@
                     </div>
 
                     <article class="philosophy-step fade-up">
-                        <img class="step-visual" src="assets/icons/build.svg" alt="" width="96" height="96">
-                        <h3 data-i18n="philosophy.build.title">Build</h3>
-                        <p data-i18n="philosophy.build.lead">We build software that creates lasting value.</p>
-                        <p data-i18n="philosophy.build.p1">
-                            We ship incrementally, validate early, and refine based on real use—not slide decks. Every decision balances immediate needs with long-term maintainability.
-                        </p>
-                        <p data-i18n="philosophy.build.p2">
-                            The result is software that organizations can grow with: clear interfaces, thoughtful engineering, and systems that earn trust over time rather than demanding constant workarounds.
-                        </p>
+                        <h3 data-i18n="payroll.features.setup.title">Setup</h3>
+                        <p data-i18n="payroll.features.setup.body">Pay items and calendars configured once, then reused every cycle.</p>
                     </article>
+
+                    <div class="philosophy-divider fade-up" aria-hidden="true">
+                        <span>↓</span>
+                    </div>
+
+                    <article class="philosophy-step fade-up">
+                        <h3 data-i18n="payroll.features.sync.title">HRIS Sync</h3>
+                        <p data-i18n="payroll.features.sync.body">People, attendance, and leave stay connected—so payroll starts from facts, not re-entry.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section about">
+            <div class="container page-grid fade-up">
+                <h2 class="who-title" data-i18n="payroll.who.title">Who it's for</h2>
+                <div class="who-body">
+                    <p data-i18n="payroll.who.p1">
+                        Built for teams already on Xineon HRIS that want payroll as a clear add-on—not a second system to reconcile every month.
+                    </p>
                 </div>
             </div>
         </section>

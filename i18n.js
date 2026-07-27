@@ -8,6 +8,7 @@
             "nav.home": "Home",
             "nav.product": "Product",
             "nav.hris": "HRIS",
+            "nav.payroll": "Payroll",
             "nav.ats": "ATS",
             "nav.performance": "Performance Management",
             "nav.pricing": "Pricing",
@@ -182,6 +183,32 @@
             "ats.soon.p2":
                 'Want early access or a conversation about hiring workflows? Reach us at <a class="text-link" href="mailto:hello@xineon.io">hello@xineon.io</a>.',
 
+            "payroll.meta":
+                "Xineon Payroll is an add-on for Xineon HRIS—pay runs and payslips connected to attendance and leave, without the spreadsheet maze.",
+            "payroll.title": "Xineon Payroll",
+            "payroll.hero.title": "Payroll that stays clear.",
+            "payroll.overview.title": "Overview",
+            "payroll.overview.p1":
+                'Xineon Payroll is an add-on to <a class="text-link" href="hris.html">Xineon HRIS</a>. It starts from attendance and leave you already track—then turns them into pay runs and payslips without a separate spreadsheet.',
+            "payroll.mockup.alt":
+                "Xineon Payroll — pay runs list with snapshot metrics and run statuses",
+            "payroll.features.title": "Core Features",
+            "payroll.features.runs.title": "Pay Runs",
+            "payroll.features.runs.body":
+                "Monthly and off-cycle runs you can review before anything goes out.",
+            "payroll.features.payslips.title": "Payslips",
+            "payroll.features.payslips.body":
+                "Clear payslips for each employee—issued when the run is final.",
+            "payroll.features.setup.title": "Setup",
+            "payroll.features.setup.body":
+                "Pay items and calendars configured once, then reused every cycle.",
+            "payroll.features.sync.title": "HRIS Sync",
+            "payroll.features.sync.body":
+                "People, attendance, and leave stay connected—so payroll starts from facts, not re-entry.",
+            "payroll.who.title": "Who it's for",
+            "payroll.who.p1":
+                "Built for teams already on Xineon HRIS that want payroll as a clear add-on—not a second system to reconcile every month.",
+
             "perf.meta":
                 "Xineon Performance Management — goals, feedback, and reviews designed for clarity. Coming soon.",
             "perf.title": "Xineon Performance Management",
@@ -201,6 +228,7 @@
             "nav.home": "홈",
             "nav.product": "제품",
             "nav.hris": "HRIS",
+            "nav.payroll": "급여",
             "nav.ats": "ATS",
             "nav.performance": "성과 관리",
             "nav.pricing": "가격",
@@ -374,6 +402,32 @@
                 'ATS도 <a class="text-link" href="hris.html">Xineon HRIS</a>와 같은 기준으로 만듭니다. 채용이 실제로 어떻게 돌아가는지 이해하고, 그 위에 시스템을 설계합니다.',
             "ats.soon.p2":
                 '얼리 액세스나 채용 워크플로에 대한 대화가 필요하시면 <a class="text-link" href="mailto:hello@xineon.io">hello@xineon.io</a>로 연락해 주세요.',
+
+            "payroll.meta":
+                "Xineon 급여는 Xineon HRIS add-on입니다—근태·휴가와 연결된 급여 정산과 명세서, 스프레드시트 미로 없이.",
+            "payroll.title": "Xineon 급여",
+            "payroll.hero.title": "명확함이 유지되는 급여.",
+            "payroll.overview.title": "개요",
+            "payroll.overview.p1":
+                'Xineon 급여는 <a class="text-link" href="hris.html">Xineon HRIS</a>의 add-on입니다. 이미 추적 중인 근태·휴가에서 시작해—별도 스프레드시트 없이 급여 정산과 명세서로 이어집니다.',
+            "payroll.mockup.alt":
+                "Xineon 급여 — 스냅샷 지표와 상태가 있는 급여 정산 목록",
+            "payroll.features.title": "핵심 기능",
+            "payroll.features.runs.title": "급여 정산",
+            "payroll.features.runs.body":
+                "월간·수시 정산을 검토한 뒤 지급할 수 있습니다.",
+            "payroll.features.payslips.title": "명세서",
+            "payroll.features.payslips.body":
+                "정산이 확정되면 직원별 명세서를 명확하게 발행합니다.",
+            "payroll.features.setup.title": "설정",
+            "payroll.features.setup.body":
+                "급여 항목과 일정을 한 번 구성해 두고, 매 주기마다 재사용합니다.",
+            "payroll.features.sync.title": "HRIS 연동",
+            "payroll.features.sync.body":
+                "임직원·근태·휴가가 연결되어, 급여는 재입력이 아니라 사실에서 시작합니다.",
+            "payroll.who.title": "이런 팀에 맞습니다",
+            "payroll.who.p1":
+                "이미 Xineon HRIS를 쓰는 팀, 매달 맞추는 두 번째 시스템이 아니라 명확한 add-on으로 급여를 원하는 팀을 위해 만들었습니다.",
 
             "perf.meta":
                 "Xineon 성과 관리 — 명확함을 위한 목표, 피드백, 리뷰. 준비 중입니다.",
