@@ -12,8 +12,7 @@
             "nav.ats": "ATS",
             "nav.performance": "Performance Management",
             "nav.pricing": "Pricing",
-            "nav.philosophy": "Philosophy",
-            "nav.about": "About",
+            "nav.company": "Company",
             "nav.contact": "Contact",
             "nav.bookDemo": "Book Demo",
 
@@ -35,22 +34,71 @@
             "home.hero.subtitle":
                 "Modern software for organizations <br>that value clarity over complexity.",
             "home.hero.ctaPrimary": "Book a Demo",
-            "home.hero.ctaSecondary": "Our Philosophy",
-            "home.about.title": "About Xineon",
-            "home.about.p1":
-                "Inspired by the Greek concept of Noesis, Xineon represents a commitment to understanding before building.",
-            "home.about.p2":
-                "We believe great software begins with deep understanding—not assumptions.",
-            "home.about.p3":
-                "Through thoughtful engineering, we transform complexity into clarity and create software that helps people and organizations work better.",
-            "home.philosophy.title": "Our Philosophy",
-            "home.philosophy.explore.title": "Explore",
-            "home.philosophy.explore.body": "We begin by exploring the real problem.",
-            "home.philosophy.understand.title": "Understand",
-            "home.philosophy.understand.body":
+            "home.hero.ctaSecondary": "See products",
+            "home.products.title": "Products",
+            "home.products.hris.title": "HRIS",
+            "home.products.hris.body":
+                "One system for people, organization, leave, and attendance.",
+            "home.products.hris.cta": "Explore HRIS",
+            "home.products.payroll.title": "Payroll",
+            "home.products.payroll.body":
+                "An add-on for pay runs and payslips—connected to HRIS.",
+            "home.products.payroll.cta": "Explore Payroll",
+            "home.products.ats.title": "ATS",
+            "home.products.ats.body": "Hiring workflows without the noise.",
+            "home.products.performance.title": "Performance",
+            "home.products.performance.body": "Goals and reviews that stay clear.",
+            "home.products.soon": "Coming soon",
+            "home.method.title": "How we build",
+            "home.method.body":
+                "Explore the real problem. Understand it deeply. Then build with intention.",
+            "home.method.cta": "About the company",
+
+            "company.meta":
+                "Xineon is an enterprise software company grounded in Noesis—understanding before building—and a clear way of working: explore, understand, then build.",
+            "company.title": "Company — Xineon",
+            "company.hero.title": "For organizations that value clarity.",
+            "company.hero.subtitle":
+                "Xineon is an enterprise software company focused on turning complexity into clarity—one thoughtful system at a time.",
+            "company.name.title": "Our Name",
+            "company.name.alt": "Xineon — white letterforms with a soft blue glow",
+            "company.name.p1":
+                "Inspired by the Greek concept of Noesis—the act of pure intellectual understanding—Xineon represents a commitment to understanding before building.",
+            "company.name.p2":
+                "The name reflects what we believe software should be grounded in: not assumptions about how work should happen, but a genuine grasp of how it actually does.",
+            "company.logo.title": "Our Logo",
+            "company.logo.altColor": "Xineon lockup in full color",
+            "company.logo.altBlack": "Xineon lockup in black",
+            "company.logo.p1":
+                "Our mark is a window with a single blue cursor—software as a clear frame for work, and understanding as the point of focus. The lockup pairs that mark with the Xineon wordmark and our line: built on understanding, not assumptions.",
+            "company.believe.title": "What We Believe",
+            "company.believe.p1":
+                "Clarity is not a nice-to-have. It is the foundation of software that people trust, adopt, and rely on every day. When systems are clear, teams move faster, make better decisions, and spend less time fighting their tools.",
+            "company.work.title": "How We Work",
+            "company.explore.title": "Explore",
+            "company.explore.lead": "We begin by exploring the real problem.",
+            "company.explore.p1":
+                "Before proposing solutions, we listen—to the people who use the systems, the teams who maintain them, and the constraints that shape daily work. We map how things actually flow, not how a diagram says they should.",
+            "company.explore.p2":
+                "Exploration means asking better questions, surfacing friction that has become invisible, and resisting the urge to jump to features. The goal is a clear picture of what is broken, what works, and what matters most.",
+            "company.understand.title": "Understand",
+            "company.understand.lead":
                 "We seek deep understanding before designing solutions.",
-            "home.philosophy.build.title": "Build",
-            "home.philosophy.build.body": "We build software that creates lasting value.",
+            "company.understand.p1":
+                "Understanding is more than gathering requirements. It means separating assumptions from facts, tracing cause and effect, and finding the structure beneath surface complexity.",
+            "company.understand.p2":
+                "Inspired by the Greek concept of Noesis—pure intellectual understanding—we treat clarity as a deliverable. When the problem is truly understood, the right solution often becomes obvious.",
+            "company.build.title": "Build",
+            "company.build.lead": "We build software that creates lasting value.",
+            "company.build.p1":
+                "We ship incrementally, validate early, and refine based on real use—not slide decks. Every decision balances immediate needs with long-term maintainability.",
+            "company.build.p2":
+                "The result is software that organizations can grow with: clear interfaces, thoughtful engineering, and systems that earn trust over time rather than demanding constant workarounds.",
+            "company.products.title": "What We Build",
+            "company.products.p1":
+                'We build modern enterprise software for organizations that value clarity over complexity—starting with <a class="text-link" href="hris.html">Xineon HRIS</a> and <a class="text-link" href="payroll.html">Xineon Payroll</a>.',
+            "company.products.p2":
+                "Every product we ship follows the same standard: thoughtful engineering, clean interfaces, and a focus on how people actually work—not how a vendor thinks they should.",
 
             "about.meta":
                 "Xineon is an enterprise software company for organizations that think clearly—grounded in the Greek concept of Noesis and a commitment to understanding before building.",
@@ -83,7 +131,7 @@
             "about.work.p1":
                 "Through thoughtful engineering, we transform complexity into clarity and create software that helps people and organizations work better.",
             "about.work.p2":
-                'We work closely with the teams who use our products—listening, iterating, and improving based on real feedback. Our process is described in detail on our <a class="text-link" href="philosophy.html">Philosophy</a> page: explore, understand, then build.',
+                'We work closely with the teams who use our products—listening, iterating, and improving based on real feedback. Our process is described in detail on our <a class="text-link" href="company.html#how-we-work">Company</a> page: explore, understand, then build.',
 
             "philosophy.meta":
                 "Xineon explores real problems, seeks deep understanding, and builds software that creates lasting value—grounded in clarity over assumptions.",
@@ -232,8 +280,7 @@
             "nav.ats": "ATS",
             "nav.performance": "성과 관리",
             "nav.pricing": "가격",
-            "nav.philosophy": "철학",
-            "nav.about": "소개",
+            "nav.company": "회사",
             "nav.contact": "문의",
             "nav.bookDemo": "데모 문의",
 
@@ -255,22 +302,71 @@
             "home.hero.subtitle":
                 "복잡함보다 명확함을 중시하는 <br>조직을 위한 모던 소프트웨어.",
             "home.hero.ctaPrimary": "데모 문의",
-            "home.hero.ctaSecondary": "우리의 철학",
-            "home.about.title": "Xineon 소개",
-            "home.about.p1":
-                "그리스 철학의 Noesis(이해·인식) 개념에서 영감을 받은 Xineon은, 만들기 전에 이해하는 것을 약속합니다.",
-            "home.about.p2":
-                "우리는 훌륭한 소프트웨어가 가정이 아닌 깊은 이해에서 시작한다고 믿습니다.",
-            "home.about.p3":
-                "신중한 엔지니어링을 통해 복잡함을 명확함으로 바꾸고, 사람과 조직이 더 잘 일할 수 있도록 돕는 소프트웨어를 만듭니다.",
-            "home.philosophy.title": "우리의 철학",
-            "home.philosophy.explore.title": "발견",
-            "home.philosophy.explore.body": "우리는 진짜 문제를 발견하는 것에서 시작합니다.",
-            "home.philosophy.understand.title": "이해",
-            "home.philosophy.understand.body":
+            "home.hero.ctaSecondary": "제품 보기",
+            "home.products.title": "제품",
+            "home.products.hris.title": "HRIS",
+            "home.products.hris.body":
+                "임직원·조직·휴가·근태를 위한 하나의 시스템.",
+            "home.products.hris.cta": "HRIS 보기",
+            "home.products.payroll.title": "급여",
+            "home.products.payroll.body":
+                "급여 정산과 명세서를 위한 add-on—HRIS와 연결됩니다.",
+            "home.products.payroll.cta": "급여 보기",
+            "home.products.ats.title": "ATS",
+            "home.products.ats.body": "잡음 없는 채용 워크플로.",
+            "home.products.performance.title": "성과",
+            "home.products.performance.body": "명확함이 유지되는 목표와 리뷰.",
+            "home.products.soon": "준비 중",
+            "home.method.title": "만드는 방식",
+            "home.method.body":
+                "진짜 문제를 발견하고, 깊이 이해한 뒤, 의도를 가지고 구축합니다.",
+            "home.method.cta": "회사 소개",
+
+            "company.meta":
+                "Xineon은 Noesis(이해·인식)—만들기 전에 이해하기—와 발견·이해·구축의 방식에 뿌리를 둔 엔터프라이즈 소프트웨어 회사입니다.",
+            "company.title": "회사 — Xineon",
+            "company.hero.title": "명확함을 중시하는 조직을 위해.",
+            "company.hero.subtitle":
+                "Xineon은 복잡함을 명확함으로 바꾸는 데 집중하는 엔터프라이즈 소프트웨어 회사입니다—신중하게 설계된 시스템으로, 하나씩.",
+            "company.name.title": "이름",
+            "company.name.alt": "Xineon — 부드러운 블루 글로우가 있는 화이트 레터폼",
+            "company.name.p1":
+                "그리스 철학의 Noesis(이해·인식)—순수한 지적 이해의 행위—에서 영감을 받은 Xineon은, 만들기 전에 이해하는 것을 약속합니다.",
+            "company.name.p2":
+                "이 이름은 소프트웨어가 바탕해야 할 것이 무엇인지 담습니다. 일이 ‘어떻게 되어야 한다’는 가정이 아니라, 실제로 어떻게 돌아가는지에 대한 진짜 이해입니다.",
+            "company.logo.title": "로고",
+            "company.logo.altColor": "풀컬러 Xineon 로고 조합",
+            "company.logo.altBlack": "블랙 Xineon 로고 조합",
+            "company.logo.p1":
+                "우리의 마크는 창과 하나의 파란 커서입니다—소프트웨어는 일을 담는 맑은 프레임이고, 이해는 그 초점입니다. 로고 조합은 그 마크와 Xineon 워드마크, 그리고 우리의 문장—가정을 앞세우지 않고, 이해에서 출발합니다—을 함께 둡니다.",
+            "company.believe.title": "우리가 믿는 것",
+            "company.believe.p1":
+                "명확함은 있으면 좋은 것이 아닙니다. 사람들이 신뢰하고, 받아들이며, 매일 의지하는 소프트웨어의 기초입니다. 시스템이 명확하면 팀은 더 빠르게 움직이고, 더 나은 결정을 내리며, 도구와 씨름하는 시간을 줄입니다.",
+            "company.work.title": "일하는 방식",
+            "company.explore.title": "발견",
+            "company.explore.lead": "우리는 진짜 문제를 발견하는 것에서 시작합니다.",
+            "company.explore.p1":
+                "솔루션을 제안하기 전에, 우리는 듣습니다—시스템을 쓰는 사람, 유지하는 팀, 그리고 매일의 일을 규정하는 제약까지. 다이어그램이 말하는 흐름이 아니라, 실제로 흘러가는 방식을 그립니다.",
+            "company.explore.p2":
+                "발견이란 더 나은 질문을 던지고, 보이지 않게 된 마찰을 드러내며, 기능으로 바로 뛰어들고 싶은 충동을 참는 일입니다. 목표는 무엇이 깨져 있고, 무엇이 작동하며, 무엇이 가장 중요한지에 대한 선명한 그림입니다.",
+            "company.understand.title": "이해",
+            "company.understand.lead":
                 "솔루션을 설계하기 전에 깊은 이해를 추구합니다.",
-            "home.philosophy.build.title": "구축",
-            "home.philosophy.build.body": "오래 남는 가치를 만드는 소프트웨어를 구축합니다.",
+            "company.understand.p1":
+                "이해는 요구사항을 모으는 것 이상입니다. 가정과 사실을 가르고, 원인과 결과를 추적하며, 표면의 복잡함 아래 있는 구조를 찾는 일입니다.",
+            "company.understand.p2":
+                "그리스 철학의 Noesis(이해·인식)—순수한 지적 이해—에서 영감을 받아, 우리는 명확함을 하나의 결과물로 다룹니다. 문제를 진정으로 이해하면, 올바른 솔루션은 종종 분명해집니다.",
+            "company.build.title": "구축",
+            "company.build.lead": "오래 남는 가치를 만드는 소프트웨어를 구축합니다.",
+            "company.build.p1":
+                "우리는 점진적으로 출시하고, 일찍 검증하며, 슬라이드가 아니라 실제 사용을 기준으로 다듬습니다. 모든 결정은 당장의 필요와 장기적인 유지보수성 사이에서 균형을 잡습니다.",
+            "company.build.p2":
+                "결과는 조직과 함께 성장할 수 있는 소프트웨어입니다. 명확한 인터페이스, 신중한 엔지니어링, 그리고 끊임없는 우회를 요구하기보다 시간이 지날수록 신뢰를 쌓는 시스템.",
+            "company.products.title": "우리가 만드는 것",
+            "company.products.p1":
+                '우리는 복잡함보다 명확함을 중시하는 조직을 위한 모던 엔터프라이즈 소프트웨어를 만듭니다—먼저 <a class="text-link" href="hris.html">Xineon HRIS</a>와 <a class="text-link" href="payroll.html">Xineon 급여</a>부터.',
+            "company.products.p2":
+                "우리가 출시하는 모든 제품은 같은 기준을 따릅니다. 신중한 엔지니어링, 깔끔한 인터페이스, 그리고 벤더가 생각하는 방식이 아니라 사람들이 실제로 일하는 방식에 대한 집중.",
 
             "about.meta":
                 "Xineon은 명확하게 생각하는 조직을 위한 엔터프라이즈 소프트웨어 회사입니다—그리스 철학의 Noesis 개념과, 만들기 전에 이해하는 약속에 뿌리를 둡니다.",
@@ -303,7 +399,7 @@
             "about.work.p1":
                 "신중한 엔지니어링을 통해 복잡함을 명확함으로 바꾸고, 사람과 조직이 더 잘 일할 수 있도록 돕는 소프트웨어를 만듭니다.",
             "about.work.p2":
-                '우리는 제품을 쓰는 팀과 가까이 일합니다—듣고, 반복하고, 실제 피드백으로 개선합니다. 프로세스는 <a class="text-link" href="philosophy.html">철학</a> 페이지에 자세히 담겨 있습니다. 발견하고, 이해하고, 구축합니다.',
+                '우리는 제품을 쓰는 팀과 가까이 일합니다—듣고, 반복하고, 실제 피드백으로 개선합니다. 프로세스는 <a class="text-link" href="company.html#how-we-work">회사</a> 페이지에 자세히 담겨 있습니다. 발견하고, 이해하고, 구축합니다.',
 
             "philosophy.meta":
                 "Xineon은 진짜 문제를 발견하고, 깊은 이해를 추구하며, 오래 남는 가치를 만드는 소프트웨어를 구축합니다—가정보다 명확함에 뿌리를 둡니다.",
