@@ -148,18 +148,24 @@
             "hris.mockup.alt":
                 "Xineon HRIS directory — employee list with filters, status, and org navigation",
             "hris.features.title": "Core Features",
-            "hris.features.people.title": "People & Structure",
+            "hris.features.people.title": "People",
             "hris.features.people.body":
-                "Employee records and org charts, kept in sync as your company grows.",
-            "hris.features.time.title": "Time & Pay",
-            "hris.features.time.body":
-                "Attendance, leave, and payroll basics — tracked accurately, without spreadsheets.",
-            "hris.features.ops.title": "Operations",
-            "hris.features.ops.body":
-                "General affairs requests and certificate issuance, handled in one workflow.",
-            "hris.features.growth.title": "Growth",
-            "hris.features.growth.body":
-                "Training history logged and available whenever it's needed.",
+                "The employee record your team actually uses—clear, current, and easy to find.",
+            "hris.features.organization.title": "Organization",
+            "hris.features.organization.body":
+                "Org charts that stay aligned with how your company really works.",
+            "hris.features.leave.title": "Leave Management",
+            "hris.features.leave.body":
+                "Leave tracked with clarity—from request to approval to who's out today.",
+            "hris.features.attendance.title": "Attendance",
+            "hris.features.attendance.body":
+                "Daily attendance captured accurately, without spreadsheet workarounds.",
+            "hris.features.documents.title": "Documents & Records",
+            "hris.features.documents.body":
+                "HR documents and records kept together, ready when they're needed.",
+            "hris.features.performance.title": "Performance (Basic)",
+            "hris.features.performance.body":
+                "Goals and simple reviews that stay clear—not buried in templates.",
             "hris.who.title": "Who it's for",
             "hris.who.p1":
                 "Built for teams under 50, and growing small or mid-sized companies where HR processes are still taking shape. If your organization already runs on complex, established systems, Xineon HRIS may not be the right fit — yet.",
