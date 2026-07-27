@@ -341,18 +341,24 @@
             "hris.mockup.alt":
                 "Xineon HRIS 디렉터리 — 필터, 상태, 조직 탐색이 있는 임직원 목록",
             "hris.features.title": "핵심 기능",
-            "hris.features.people.title": "사람 & 조직",
+            "hris.features.people.title": "임직원",
             "hris.features.people.body":
-                "임직원 기록과 조직도가 회사가 성장해도 함께 맞춰집니다.",
-            "hris.features.time.title": "근태 & 급여",
-            "hris.features.time.body":
-                "출퇴근, 휴가, 급여의 기초 — 스프레드시트 없이 정확하게 추적합니다.",
-            "hris.features.ops.title": "운영",
-            "hris.features.ops.body":
-                "총무 업무 요청과 증명서 발급을 하나의 워크플로에서 처리합니다.",
-            "hris.features.growth.title": "성장",
-            "hris.features.growth.body":
-                "교육 이력을 기록해 두고, 필요할 때 바로 확인할 수 있습니다.",
+                "팀이 실제로 쓰는 임직원 기록—명확하고, 최신 상태로, 바로 찾을 수 있게.",
+            "hris.features.organization.title": "조직",
+            "hris.features.organization.body":
+                "회사가 실제로 일하는 구조와 맞춰진 조직도.",
+            "hris.features.leave.title": "휴가 관리",
+            "hris.features.leave.body":
+                "요청부터 승인, 오늘 누가 자리를 비웠는지까지—휴가를 명확하게 추적합니다.",
+            "hris.features.attendance.title": "근태",
+            "hris.features.attendance.body":
+                "스프레드시트 우회 없이, 매일의 근태를 정확하게 기록합니다.",
+            "hris.features.documents.title": "문서 & 기록",
+            "hris.features.documents.body":
+                "HR 문서와 기록을 한곳에 모아, 필요할 때 바로 꺼내 쓸 수 있게.",
+            "hris.features.performance.title": "성과 관리 (기본)",
+            "hris.features.performance.body":
+                "목표와 간단한 리뷰에 집중—템플릿에 묻히지 않고 명확하게.",
             "hris.who.title": "이런 팀에 맞습니다",
             "hris.who.p1":
                 "50명 미만의 팀, 그리고 HR 프로세스가 아직 자리 잡아 가는 성장 중인 중소 규모 조직을 위해 만들었습니다. 이미 복잡하고 정착된 시스템으로 운영 중이라면, Xineon HRIS는 — 아직은 — 맞지 않을 수 있습니다.",
