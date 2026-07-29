@@ -10,7 +10,7 @@
             "nav.hris": "HRIS",
             "nav.payroll": "Payroll",
             "nav.ats": "ATS",
-            "nav.performance": "Performance Management",
+            "nav.performance": "Performance Studio",
             "nav.pricing": "Pricing",
             "nav.company": "Company",
             "nav.contact": "Contact",
@@ -48,8 +48,8 @@
             "home.products.payroll.cta": "Explore Payroll",
             "home.products.ats.title": "ATS",
             "home.products.ats.body": "Hiring workflows without the noise.",
-            "home.products.performance.title": "Performance",
-            "home.products.performance.body": "Goals and reviews that stay clear.",
+            "home.products.performance.title": "Performance Studio",
+            "home.products.performance.body": "Bespoke goals and reviews—designed and analyzed with you.",
             "home.products.soon": "Coming soon",
             "home.method.title": "How we build",
             "home.method.body":
@@ -216,7 +216,7 @@
                 "HR documents and records kept together, ready when they're needed.",
             "hris.features.performance.title": "Performance (Basic)",
             "hris.features.performance.body":
-                "Goals and simple reviews that stay clear—not buried in templates.",
+                "Lightweight goals and simple reviews inside HRIS—not a full performance system.",
             "hris.who.title": "Who it's for",
             "hris.who.p1":
                 "Built for teams under 50, and growing small or mid-sized companies where HR processes are still taking shape. If your organization already runs on complex, established systems, Xineon HRIS may not be the right fit — yet.",
@@ -260,14 +260,14 @@
                 "Built for teams already on Xineon HRIS that want payroll as a clear add-on—not a second system to reconcile every month.",
 
             "perf.meta":
-                "Xineon Performance Management — goals, feedback, and reviews designed for clarity. Coming soon.",
-            "perf.title": "Xineon Performance Management",
-            "perf.hero.title": "Performance that stays clear.",
+                "Xineon Performance Studio (Bespoke) — we design and analyze your goals and review system with you. Coming soon.",
+            "perf.title": "Xineon Performance Studio",
+            "perf.hero.title": "Performance Studio (Bespoke)",
             "perf.hero.subtitle":
-                "Xineon Performance Management is in development—goals, feedback, and reviews without the ritual theater.",
+                "Not another generic review tool—we design and analyze a performance system that fits how your organization actually works.",
             "perf.soon.title": "Coming Soon",
             "perf.soon.p1":
-                'We\'re designing performance tools that start from how teams actually set direction and grow—not from generic review templates. It will sit alongside <a class="text-link" href="hris.html">Xineon HRIS</a>.',
+                'HRIS includes <strong>Performance (Basic)</strong> for lightweight goals and reviews. Performance Studio is separate: a bespoke engagement where we map, design, and refine your performance practice—then connect it to <a class="text-link" href="hris.html">Xineon HRIS</a>.',
             "perf.soon.p2":
                 'Interested in early conversations? Email <a class="text-link" href="mailto:hello@xineon.io">hello@xineon.io</a>.',
 
@@ -280,7 +280,7 @@
             "nav.hris": "HRIS",
             "nav.payroll": "급여",
             "nav.ats": "ATS",
-            "nav.performance": "성과 관리",
+            "nav.performance": "성과 스튜디오",
             "nav.pricing": "가격",
             "nav.company": "회사",
             "nav.contact": "문의",
@@ -318,8 +318,8 @@
             "home.products.payroll.cta": "급여 보기",
             "home.products.ats.title": "ATS",
             "home.products.ats.body": "잡음 없는 채용 워크플로.",
-            "home.products.performance.title": "성과",
-            "home.products.performance.body": "명확함이 유지되는 목표와 리뷰.",
+            "home.products.performance.title": "성과 스튜디오",
+            "home.products.performance.body": "함께 설계·분석하는 맞춤형 목표와 리뷰.",
             "home.products.soon": "준비 중",
             "home.method.title": "만드는 방식",
             "home.method.body":
@@ -486,7 +486,7 @@
                 "HR 문서와 기록을 한곳에 모아, 필요할 때 바로 꺼내 쓸 수 있게.",
             "hris.features.performance.title": "성과 관리 (기본)",
             "hris.features.performance.body":
-                "목표와 간단한 리뷰에 집중—템플릿에 묻히지 않고 명확하게.",
+                "HRIS 안의 가벼운 목표·간단 리뷰—완전한 성과 체계는 아닙니다.",
             "hris.who.title": "이런 팀에 맞습니다",
             "hris.who.p1":
                 "50명 미만의 팀, 그리고 HR 프로세스가 아직 자리 잡아 가는 성장 중인 중소 규모 조직을 위해 만들었습니다. 이미 복잡하고 정착된 시스템으로 운영 중이라면, Xineon HRIS는 — 아직은 — 맞지 않을 수 있습니다.",
@@ -530,14 +530,14 @@
                 "이미 Xineon HRIS를 쓰는 팀, 매달 맞추는 두 번째 시스템이 아니라 명확한 add-on으로 급여를 원하는 팀을 위해 만들었습니다.",
 
             "perf.meta":
-                "Xineon 성과 관리 — 명확함을 위한 목표, 피드백, 리뷰. 준비 중입니다.",
-            "perf.title": "Xineon 성과 관리",
-            "perf.hero.title": "명확함이 유지되는 성과 관리.",
+                "Xineon 성과 스튜디오 (맞춤) — 목표·리뷰 체계를 함께 설계하고 분석합니다. 준비 중입니다.",
+            "perf.title": "Xineon 성과 스튜디오",
+            "perf.hero.title": "성과 스튜디오 (맞춤)",
             "perf.hero.subtitle":
-                "Xineon 성과 관리는 개발 중입니다—형식만 남은 평가는 빼고, 목표·피드백·리뷰에 집중합니다.",
+                "일반적인 리뷰 도구가 아닙니다—조직이 실제로 일하는 방식에 맞는 성과 체계를 함께 설계하고 분석합니다.",
             "perf.soon.title": "준비 중",
             "perf.soon.p1":
-                '우리는 일반적인 리뷰 템플릿이 아니라, 팀이 실제로 방향을 잡고 성장하는 방식에서 출발하는 성과 도구를 설계하고 있습니다. <a class="text-link" href="hris.html">Xineon HRIS</a>와 함께 동작합니다.',
+                'HRIS에는 가벼운 목표·리뷰용 <strong>성과 관리 (기본)</strong>이 포함됩니다. 성과 스튜디오는 별도입니다—현황을 매핑하고, 성과 운영 방식을 설계·다듬은 뒤 <a class="text-link" href="hris.html">Xineon HRIS</a>와 연결합니다.',
             "perf.soon.p2":
                 '미리 이야기하고 싶으시면 <a class="text-link" href="mailto:hello@xineon.io">hello@xineon.io</a>로 메일을 보내 주세요.',
 
