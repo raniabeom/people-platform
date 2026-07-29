@@ -319,6 +319,69 @@ nav {
     background: var(--color-gray-700);
 }
 
+.nav-toggle {
+    display: none;
+    appearance: none;
+    margin: 0;
+    padding: 10px;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    background: transparent;
+    color: var(--color-gray-900);
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.nav-toggle:hover {
+    background: var(--color-gray-50);
+}
+
+.nav-toggle:focus-visible {
+    outline: 2px solid var(--color-accent);
+    outline-offset: 2px;
+}
+
+.nav-toggle__box {
+    display: block;
+    width: 20px;
+    height: 14px;
+    position: relative;
+}
+
+.nav-toggle__bar {
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 1.5px;
+    border-radius: 1px;
+    background: currentColor;
+    transition: transform 0.2s ease, top 0.2s ease;
+}
+
+.nav-toggle__bar:first-child {
+    top: 2px;
+}
+
+.nav-toggle__bar:last-child {
+    top: 10px;
+}
+
+nav.is-open .nav-toggle__bar:first-child {
+    top: 6px;
+    transform: rotate(45deg);
+}
+
+nav.is-open .nav-toggle__bar:last-child {
+    top: 6px;
+    transform: rotate(-45deg);
+}
+
+body.nav-open {
+    overflow: hidden;
+}
+
 /* ---------- Hero ---------- */
 
 .hero {
@@ -1453,6 +1516,165 @@ nav {
 
 .about-body li + li {
     margin-top: 6px;
+}
+
+@media (max-width: 900px) {
+    /* backdrop-filter on nav makes position:fixed children size to the nav bar */
+    nav {
+        background: var(--color-white);
+        backdrop-filter: none;
+        -webkit-backdrop-filter: none;
+    }
+
+    .nav-inner {
+        height: 64px;
+        position: relative;
+        z-index: 140;
+    }
+
+    .logo {
+        position: relative;
+        z-index: 140;
+        font-size: 20px;
+        gap: 10px;
+    }
+
+    .logo-mark {
+        width: 24px;
+        height: 24px;
+    }
+
+    .nav-toggle {
+        display: inline-flex;
+        position: relative;
+        z-index: 140;
+    }
+
+    .nav-right {
+        position: fixed;
+        inset: 0;
+        z-index: 130;
+
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        gap: 0;
+
+        width: 100%;
+        height: 100%;
+        height: 100dvh;
+        max-height: none;
+        margin: 0;
+        padding: 88px 32px 40px;
+        overflow-y: auto;
+        -webkit-overflow-scrolling: touch;
+        overscroll-behavior: contain;
+
+        background: var(--color-white);
+        border: none;
+
+        opacity: 0;
+        visibility: hidden;
+        pointer-events: none;
+        transition: opacity 0.22s ease, visibility 0.22s ease;
+    }
+
+    nav.is-open .nav-right {
+        opacity: 1;
+        visibility: visible;
+        pointer-events: auto;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 0;
+        padding: 8px 0 20px;
+        border-bottom: 1px solid var(--color-gray-100);
+    }
+
+    .nav-links > li {
+        border-bottom: 1px solid var(--color-gray-50);
+    }
+
+    .nav-links > li > a,
+    .nav-item--products > .nav-link {
+        display: flex;
+        align-items: center;
+        min-height: 52px;
+        padding: 14px 0;
+        font-size: 18px;
+        color: var(--color-gray-700);
+    }
+
+    .nav-links a.is-active,
+    .nav-links a.is-active:hover {
+        color: var(--color-gray-900);
+    }
+
+    .nav-submenu {
+        position: static;
+        left: auto;
+        top: auto;
+        transform: none;
+
+        min-width: 0;
+        margin: 0 0 8px;
+        padding: 0 0 8px 14px;
+
+        border: none;
+        border-radius: 0;
+        box-shadow: none;
+        background: transparent;
+
+        opacity: 1;
+        visibility: visible;
+        pointer-events: auto;
+    }
+
+    .nav-submenu::before {
+        display: none;
+    }
+
+    .nav-item--products:hover .nav-submenu,
+    .nav-item--products:focus-within .nav-submenu {
+        transform: none;
+    }
+
+    .nav-submenu a {
+        padding: 12px 0;
+        font-size: 16px;
+        color: var(--color-gray-500);
+    }
+
+    .nav-submenu a:hover {
+        background: transparent;
+        color: var(--color-accent);
+    }
+
+    .nav-submenu a.is-active {
+        background: transparent;
+        color: var(--color-gray-900);
+    }
+
+    .nav-actions {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 16px;
+        margin-top: auto;
+        padding-top: 28px;
+        padding-bottom: 12px;
+    }
+
+    .nav-actions .lang-toggle {
+        align-self: flex-start;
+    }
+
+    .nav-cta {
+        width: 100%;
+        min-height: 48px;
+        padding: 14px 18px;
+    }
 }
 
 @media (max-width: 768px) {
