@@ -52,4 +52,69 @@ document.addEventListener("DOMContentLoaded", () => {
             }
         });
     });
+
+    const nav = document.querySelector("nav");
+    const navToggle = document.querySelector("[data-nav-toggle]");
+    const navPanel = document.getElementById("site-nav-panel");
+    const mobileNavQuery = window.matchMedia("(max-width: 900px)");
+
+    if (nav && navToggle && navPanel) {
+        const menuLabels = {
+            en: { open: "Menu", close: "Close menu" },
+            ko: { open: "메뉴", close: "메뉴 닫기" },
+        };
+
+        const currentLang = () => {
+            const stored = localStorage.getItem("xineon-lang");
+            return stored === "ko" ? "ko" : "en";
+        };
+
+        const syncToggleLabel = (open) => {
+            const labels = menuLabels[currentLang()];
+            navToggle.setAttribute("data-i18n-aria", open ? "nav.close" : "nav.menu");
+            navToggle.setAttribute("aria-label", open ? labels.close : labels.open);
+        };
+
+        const setNavOpen = (open) => {
+            nav.classList.toggle("is-open", open);
+            document.body.classList.toggle("nav-open", open);
+            navToggle.setAttribute("aria-expanded", open ? "true" : "false");
+            syncToggleLabel(open);
+        };
+
+        navToggle.addEventListener("click", () => {
+            setNavOpen(!nav.classList.contains("is-open"));
+        });
+
+        navPanel.querySelectorAll("a").forEach((link) => {
+            link.addEventListener("click", () => {
+                if (mobileNavQuery.matches) setNavOpen(false);
+            });
+        });
+
+        document.addEventListener("keydown", (event) => {
+            if (event.key === "Escape" && nav.classList.contains("is-open")) {
+                setNavOpen(false);
+                navToggle.focus();
+            }
+        });
+
+        const onViewportChange = () => {
+            if (!mobileNavQuery.matches) setNavOpen(false);
+        };
+
+        if (typeof mobileNavQuery.addEventListener === "function") {
+            mobileNavQuery.addEventListener("change", onViewportChange);
+        } else if (typeof mobileNavQuery.addListener === "function") {
+            mobileNavQuery.addListener(onViewportChange);
+        }
+
+        document.querySelectorAll("[data-lang-option]").forEach((btn) => {
+            btn.addEventListener("click", () => {
+                requestAnimationFrame(() => {
+                    syncToggleLabel(nav.classList.contains("is-open"));
+                });
+            });
+        });
+    }
 });

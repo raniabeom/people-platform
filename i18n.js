@@ -15,6 +15,8 @@
             "nav.company": "Company",
             "nav.contact": "Contact",
             "nav.bookDemo": "Book Demo",
+            "nav.menu": "Menu",
+            "nav.close": "Close menu",
 
             "footer.label": "Contact",
             "footer.cta": "Ready to bring clarity to your organization?",
@@ -283,6 +285,8 @@
             "nav.company": "회사",
             "nav.contact": "문의",
             "nav.bookDemo": "데모 문의",
+            "nav.menu": "메뉴",
+            "nav.close": "메뉴 닫기",
 
             "footer.label": "문의",
             "footer.cta": "조직에 명확함을 더할 준비가 되셨나요?",
