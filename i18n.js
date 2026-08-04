@@ -9,6 +9,7 @@
             "nav.product": "Product",
             "nav.hris": "HRIS",
             "nav.payroll": "Payroll",
+            "nav.insight": "Insight",
             "nav.ats": "ATS",
             "nav.performance": "Performance Studio",
             "nav.pricing": "Pricing",
@@ -221,6 +222,18 @@
             "hris.who.p1":
                 "Built for teams under 50, and growing small or mid-sized companies where HR processes are still taking shape. If your organization already runs on complex, established systems, Xineon HRIS may not be the right fit — yet.",
 
+            "insight.meta":
+                "Xineon Insight — clarity on top of your HRIS data. Coming soon.",
+            "insight.title": "Xineon Insight",
+            "insight.hero.title": "See what your people data is saying.",
+            "insight.hero.subtitle":
+                "Xineon Insight helps you make sense of what's already in HRIS—without digging through screens.",
+            "insight.soon.title": "Coming Soon",
+            "insight.soon.p1":
+                'Built on <a class="text-link" href="hris.html">Xineon HRIS</a>, Insight is how teams get a clearer read on their organization—patterns, questions, and the picture behind day-to-day records.',
+            "insight.soon.p2":
+                'Want to talk early? Reach us at <a class="text-link" href="mailto:hello@xineon.io">hello@xineon.io</a>.',
+
             "ats.meta":
                 "Xineon ATS — applicant tracking built with the same clarity-first approach as the rest of the Xineon platform. Coming soon.",
             "ats.title": "Xineon ATS",
@@ -279,6 +292,7 @@
             "nav.product": "제품",
             "nav.hris": "HRIS",
             "nav.payroll": "급여",
+            "nav.insight": "Insight",
             "nav.ats": "ATS",
             "nav.performance": "성과 스튜디오",
             "nav.pricing": "가격",
@@ -490,6 +504,18 @@
             "hris.who.title": "이런 팀에 맞습니다",
             "hris.who.p1":
                 "50명 미만의 팀, 그리고 HR 프로세스가 아직 자리 잡아 가는 성장 중인 중소 규모 조직을 위해 만들었습니다. 이미 복잡하고 정착된 시스템으로 운영 중이라면, Xineon HRIS는 — 아직은 — 맞지 않을 수 있습니다.",
+
+            "insight.meta":
+                "Xineon Insight — HRIS 데이터 위의 명확함. 준비 중입니다.",
+            "insight.title": "Xineon Insight",
+            "insight.hero.title": "사람 데이터가 말하는 것을 보다.",
+            "insight.hero.subtitle":
+                "Xineon Insight는 HRIS에 이미 있는 것을 화면을 뒤지지 않고도 이해할 수 있게 돕습니다.",
+            "insight.soon.title": "준비 중",
+            "insight.soon.p1":
+                '<a class="text-link" href="hris.html">Xineon HRIS</a> 위에서, 조직의 흐름을 더 또렷하게 읽는 방법입니다—일상 기록 뒤에 있는 그림까지.',
+            "insight.soon.p2":
+                '미리 이야기하고 싶으시면 <a class="text-link" href="mailto:hello@xineon.io">hello@xineon.io</a>로 연락해 주세요.',
 
             "ats.meta":
                 "Xineon ATS — Xineon 플랫폼과 같은 명확함 우선 접근으로 만드는 채용 관리. 준비 중입니다.",
