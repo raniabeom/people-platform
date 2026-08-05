@@ -48,10 +48,14 @@
             "home.products.payroll.body":
                 "An add-on for pay runs and payslips—connected to HRIS.",
             "home.products.payroll.cta": "Explore Payroll",
+            "home.products.insight.title": "Insight",
+            "home.products.insight.body": "A clearer read on what your people data is saying.",
             "home.products.ats.title": "ATS",
             "home.products.ats.body": "Hiring workflows without the noise.",
             "home.products.performance.title": "Performance Studio",
             "home.products.performance.body": "Bespoke goals and reviews—designed and analyzed with you.",
+            "home.products.workplace.title": "Workplace Systems",
+            "home.products.workplace.body": "Custom programs for the work that repeats every month.",
             "home.products.soon": "Coming soon",
             "home.method.title": "How we build",
             "home.method.body":
@@ -344,10 +348,14 @@
             "home.products.payroll.body":
                 "급여 정산과 명세서를 위한 add-on—HRIS와 연결됩니다.",
             "home.products.payroll.cta": "급여 보기",
+            "home.products.insight.title": "Insight",
+            "home.products.insight.body": "사람 데이터가 말하는 것을 더 또렷하게.",
             "home.products.ats.title": "ATS",
             "home.products.ats.body": "잡음 없는 채용 워크플로.",
             "home.products.performance.title": "성과 스튜디오",
             "home.products.performance.body": "함께 설계·분석하는 맞춤형 목표와 리뷰.",
+            "home.products.workplace.title": "Workplace Systems",
+            "home.products.workplace.body": "매달 반복되는 업무를 위한 맞춤 프로그램.",
             "home.products.soon": "준비 중",
             "home.method.title": "만드는 방식",
             "home.method.body":
