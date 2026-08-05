@@ -12,6 +12,7 @@
             "nav.insight": "Insight",
             "nav.ats": "ATS",
             "nav.performance": "Performance Studio",
+            "nav.workplace": "Workplace Systems",
             "nav.pricing": "Pricing",
             "nav.company": "Company",
             "nav.contact": "Contact",
@@ -234,6 +235,18 @@
             "insight.soon.p2":
                 'Want to talk early? Reach us at <a class="text-link" href="mailto:hello@xineon.io">hello@xineon.io</a>.',
 
+            "workplace.meta":
+                "Xineon Workplace Systems — custom programs for the recurring work of HR, admin, and business support. Coming soon.",
+            "workplace.title": "Xineon Workplace Systems",
+            "workplace.hero.title": "Workplace Systems",
+            "workplace.hero.subtitle":
+                "Custom programs for the recurring work of HR, admin, and business support.",
+            "workplace.soon.title": "Coming Soon",
+            "workplace.soon.p1":
+                "Every company has work that repeats—requests, approvals, handoffs, and the small systems that keep people and operations moving. We build those programs to fit how your organization actually works.",
+            "workplace.soon.p2":
+                'Want to talk about a workplace system? Reach us at <a class="text-link" href="mailto:hello@xineon.io">hello@xineon.io</a>.',
+
             "ats.meta":
                 "Xineon ATS — applicant tracking built with the same clarity-first approach as the rest of the Xineon platform. Coming soon.",
             "ats.title": "Xineon ATS",
@@ -295,6 +308,7 @@
             "nav.insight": "Insight",
             "nav.ats": "ATS",
             "nav.performance": "성과 스튜디오",
+            "nav.workplace": "Workplace Systems",
             "nav.pricing": "가격",
             "nav.company": "회사",
             "nav.contact": "문의",
@@ -516,6 +530,18 @@
                 '<a class="text-link" href="hris.html">Xineon HRIS</a> 위에서, 조직의 흐름을 더 또렷하게 읽는 방법입니다—일상 기록 뒤에 있는 그림까지.',
             "insight.soon.p2":
                 '미리 이야기하고 싶으시면 <a class="text-link" href="mailto:hello@xineon.io">hello@xineon.io</a>로 연락해 주세요.',
+
+            "workplace.meta":
+                "Xineon Workplace Systems — 인사·총무·경영지원처럼 반복적으로 필요한 맞춤 프로그램. 준비 중입니다.",
+            "workplace.title": "Xineon Workplace Systems",
+            "workplace.hero.title": "Workplace Systems",
+            "workplace.hero.subtitle":
+                "인사·총무·경영지원처럼, 회사에서 반복적으로 필요한 프로그램을 만들어 드립니다.",
+            "workplace.soon.title": "준비 중",
+            "workplace.soon.p1":
+                "요청, 승인, 인수인계처럼 반복되는 일—사람과 운영을 움직이게 하는 작은 시스템들. 조직이 실제로 일하는 방식에 맞춰 그 프로그램을 만듭니다.",
+            "workplace.soon.p2":
+                'Workplace Systems가 필요하시면 <a class="text-link" href="mailto:hello@xineon.io">hello@xineon.io</a>로 연락해 주세요.',
 
             "ats.meta":
                 "Xineon ATS — Xineon 플랫폼과 같은 명확함 우선 접근으로 만드는 채용 관리. 준비 중입니다.",
