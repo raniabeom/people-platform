@@ -594,7 +594,7 @@
             "insight.overview.title": "개요",
             "insight.overview.p1":
                 "Xineon HRIS 위에서 조직의 흐름을 읽습니다. 일상 기록 뒤에 있는 그림과 질문까지 이어지도록 설계합니다.",
-            "insight.direction.title": "이런 방향으로",
+            "insight.direction.title": "우리가 향하는 방향",
             "insight.direction.1.title": "패턴을 보기",
             "insight.direction.1.body":
                 "사람과 운영 데이터의 패턴을 다른 스프레드시트로 내보내지 않고도 확인할 수 있게 합니다.",
@@ -616,16 +616,16 @@
             "workplace.overview.title": "개요",
             "workplace.overview.p1":
                 "요청, 승인, 인수인계처럼 반복되는 일, 그리고 사람과 운영을 움직이게 하는 작은 시스템들. 조직이 실제로 일하는 방식에 맞춰 그 프로그램을 만듭니다.",
-            "workplace.direction.title": "이런 방향으로",
-            "workplace.direction.1.title": "반복되는 일",
+            "workplace.direction.title": "우리가 향하는 방향",
+            "workplace.direction.1.title": "반복되는 업무",
             "workplace.direction.1.body":
-                "요청, 승인, 인수인계. 회사를 굴리는 루프들입니다.",
-            "workplace.direction.2.title": "조직의 형태에 맞게",
+                "요청·승인·인수인계처럼, 늘 반복되는 업무에 맞춥니다.",
+            "workplace.direction.2.title": "조직에 맞춰",
             "workplace.direction.2.body":
-                "이미 운영하는 방식에 맞춘 프로그램입니다. 일률 모듈이 아닙니다.",
-            "workplace.direction.3.title": "사람·운영 지원",
+                "이미 일하는 방식에 맞춘 프로그램입니다. 획일적인 모듈이 아닙니다.",
+            "workplace.direction.3.title": "인사·총무·경영지원",
             "workplace.direction.3.body":
-                "인사·총무·경영지원. 일상 업무를 둘러싼 시스템에 집중합니다.",
+                "현장 업무와 맞닿은 시스템을 만듭니다.",
             "workplace.cta":
                 'Workplace Systems가 필요하시면 <a class="text-link" href="mailto:hello@xineon.io">hello@xineon.io</a>로 연락해 주세요.',
 
@@ -638,16 +638,16 @@
             "ats.overview.title": "개요",
             "ats.overview.p1":
                 "Xineon HRIS와 같은 기준으로 ATS를 만듭니다. 채용이 실제로 어떻게 돌아가는지 이해한 뒤, 그 흐름에 맞게 설계합니다.",
-            "ats.direction.title": "이런 방향으로",
-            "ats.direction.1.title": "따라갈 수 있는 단계",
+            "ats.direction.title": "우리가 향하는 방향",
+            "ats.direction.1.title": "한눈에 보이는 단계",
             "ats.direction.1.body":
-                "지원부터 오퍼까지, 후보가 어디에 있는지 보이는 파이프라인.",
-            "ats.direction.2.title": "잡음 없는 후보",
+                "지원부터 오퍼까지, 후보가 지금 어디에 있는지 보이는 파이프라인입니다.",
+            "ats.direction.2.title": "후보에 집중",
             "ats.direction.2.body":
-                "누구인지, 어디에 있는지, 다음이 무엇인지. 채용 신호를 또렷하게 유지합니다.",
-            "ats.direction.3.title": "HRIS로 이어지기",
+                "누가 누구인지, 어디에 있는지, 다음이 무엇인지. 채용에 필요한 정보만 또렷하게 남깁니다.",
+            "ats.direction.3.title": "HRIS와 연결",
             "ats.direction.3.body":
-                "합류 시 Xineon HRIS와 연결되도록 합니다. 채용이 인수인계 공백으로 끝나지 않게.",
+                "합류하면 Xineon HRIS로 자연스럽게 이어집니다. 채용이 인수인계 공백으로 끝나지 않습니다.",
             "ats.cta":
                 '채용 워크플로에 대해 이야기하거나 early access가 필요하시면 <a class="text-link" href="mailto:hello@xineon.io">hello@xineon.io</a>로 연락해 주세요.',
 
@@ -686,16 +686,16 @@
             "perf.overview.title": "개요",
             "perf.overview.p1":
                 "HRIS에는 가벼운 목표·리뷰용 Performance (Basic)가 포함됩니다. Performance Studio는 별도입니다. 현황을 매핑하고, 성과 운영 방식을 설계·다듬은 뒤 Xineon HRIS와 연결합니다.",
-            "perf.direction.title": "이런 방향으로",
+            "perf.direction.title": "우리가 향하는 방향",
             "perf.direction.1.title": "Basic을 넘어",
             "perf.direction.1.body":
-                "HRIS의 가벼운 목표·리뷰와 구분되는, 더 깊은 맞춤 경로.",
+                "HRIS의 가벼운 목표·리뷰를 넘어, 조직에 맞춘 더 깊은 성과 체계입니다.",
             "perf.direction.2.title": "함께 설계",
             "perf.direction.2.body":
-                "팀이 방향을 잡고 성장하는 방식을 매핑한 뒤, 그 현실에 맞게 프랙티스를 만듭니다.",
-            "perf.direction.3.title": "HRIS로 다시 연결",
+                "팀이 목표를 세우고 성장하는 방식을 먼저 파악한 뒤, 그 현실에 맞는 운영 방식을 만듭니다.",
+            "perf.direction.3.title": "HRIS와 함께 쓰기",
             "perf.direction.3.body":
-                "설계한 것은 Xineon HRIS와 함께 쓰이도록 합니다. 동떨어진 의식이 아니라요.",
+                "성과 운영은 Xineon HRIS로 이어집니다. 독립적인 모듈이 아닙니다.",
             "perf.cta":
                 '미리 이야기하고 싶으시면 <a class="text-link" href="mailto:hello@xineon.io">hello@xineon.io</a>로 메일을 보내 주세요.',
 
