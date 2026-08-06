@@ -31,6 +31,9 @@
             "lang.en": "EN",
             "lang.ko": "KO",
 
+            "common.soon": "Coming soon",
+            "common.talk": "Talk early",
+
             "home.meta":
                 "Xineon builds modern enterprise software for organizations that value clarity over complexity—grounded in understanding before assumptions.",
             "home.title": "Xineon",
@@ -233,10 +236,20 @@
             "insight.hero.title": "See what your people data is saying.",
             "insight.hero.subtitle":
                 "Xineon Insight helps you make sense of what's already in HRIS—without digging through screens.",
-            "insight.soon.title": "Coming Soon",
-            "insight.soon.p1":
-                'Built on <a class="text-link" href="hris.html">Xineon HRIS</a>, Insight is how teams get a clearer read on their organization—patterns, questions, and the picture behind day-to-day records.',
-            "insight.soon.p2":
+            "insight.overview.title": "Overview",
+            "insight.overview.p1":
+                "Built on Xineon HRIS, Insight is how teams get a clearer read on their organization—the patterns, questions, and picture behind day-to-day records.",
+            "insight.direction.title": "Where we are headed",
+            "insight.direction.1.title": "Read the picture",
+            "insight.direction.1.body":
+                "Surface patterns in people and operations data—without exporting to another spreadsheet.",
+            "insight.direction.2.title": "Ask, then see",
+            "insight.direction.2.body":
+                "Start from a question and get a clearer view—not another maze of menus.",
+            "insight.direction.3.title": "Grounded in HRIS",
+            "insight.direction.3.body":
+                "Insight sits on top of Xineon HRIS, so answers stay connected to the records you already trust.",
+            "insight.cta":
                 'Want to talk early? Reach us at <a class="text-link" href="mailto:hello@xineon.io">hello@xineon.io</a>.',
 
             "workplace.meta":
@@ -245,10 +258,20 @@
             "workplace.hero.title": "Workplace Systems",
             "workplace.hero.subtitle":
                 "Custom programs for the recurring work of HR, admin, and business support.",
-            "workplace.soon.title": "Coming Soon",
-            "workplace.soon.p1":
+            "workplace.overview.title": "Overview",
+            "workplace.overview.p1":
                 "Every company has work that repeats—requests, approvals, handoffs, and the small systems that keep people and operations moving. We build those programs to fit how your organization actually works.",
-            "workplace.soon.p2":
+            "workplace.direction.title": "Where we are headed",
+            "workplace.direction.1.title": "Work that repeats",
+            "workplace.direction.1.body":
+                "Requests, approvals, and handoffs—the loops that keep the company moving.",
+            "workplace.direction.2.title": "Built for your shape",
+            "workplace.direction.2.body":
+                "Programs fitted to how your organization already operates, not a one-size module.",
+            "workplace.direction.3.title": "People & operations support",
+            "workplace.direction.3.body":
+                "Focused on HR, general affairs, and business support—the systems around daily work.",
+            "workplace.cta":
                 'Want to talk about a workplace system? Reach us at <a class="text-link" href="mailto:hello@xineon.io">hello@xineon.io</a>.',
 
             "ats.meta":
@@ -257,10 +280,20 @@
             "ats.hero.title": "Hiring, without the noise.",
             "ats.hero.subtitle":
                 "Xineon ATS is in development—applicant tracking that stays clear from first application to offer.",
-            "ats.soon.title": "Coming Soon",
-            "ats.soon.p1":
-                'We\'re building ATS with the same standard as <a class="text-link" href="hris.html">Xineon HRIS</a>: understand how recruiting actually works, then design the system around it.',
-            "ats.soon.p2":
+            "ats.overview.title": "Overview",
+            "ats.overview.p1":
+                "We are building ATS with the same standard as Xineon HRIS: understand how recruiting actually works, then design the system around it—not around generic funnel templates.",
+            "ats.direction.title": "Where we are headed",
+            "ats.direction.1.title": "Stages you can follow",
+            "ats.direction.1.body":
+                "A pipeline that shows where every candidate stands—from applied to offer.",
+            "ats.direction.2.title": "Candidates, not clutter",
+            "ats.direction.2.body":
+                "Keep the hiring signal clear: who they are, where they are, what comes next.",
+            "ats.direction.3.title": "Ready for HRIS",
+            "ats.direction.3.body":
+                "Designed to connect with Xineon HRIS when someone joins—so hiring doesn't end in a handoff gap.",
+            "ats.cta":
                 'Want early access or a conversation about hiring workflows? Reach us at <a class="text-link" href="mailto:hello@xineon.io">hello@xineon.io</a>.',
 
             "payroll.meta":
@@ -295,10 +328,20 @@
             "perf.hero.title": "Performance Studio (Bespoke)",
             "perf.hero.subtitle":
                 "Not another generic review tool—we design and analyze a performance system that fits how your organization actually works.",
-            "perf.soon.title": "Coming Soon",
-            "perf.soon.p1":
-                'HRIS includes <strong>Performance (Basic)</strong> for lightweight goals and reviews. Performance Studio is separate: a bespoke engagement where we map, design, and refine your performance practice—then connect it to <a class="text-link" href="hris.html">Xineon HRIS</a>.',
-            "perf.soon.p2":
+            "perf.overview.title": "Overview",
+            "perf.overview.p1":
+                "HRIS includes Performance (Basic) for lightweight goals and reviews. Performance Studio is separate: a bespoke engagement where we map, design, and refine your performance practice—then connect it to Xineon HRIS.",
+            "perf.direction.title": "Where we are headed",
+            "perf.direction.1.title": "Beyond Basic",
+            "perf.direction.1.body":
+                "HRIS includes lightweight goals and reviews. Studio is the deeper, bespoke path.",
+            "perf.direction.2.title": "Design with you",
+            "perf.direction.2.body":
+                "We map how your teams set direction and grow—then shape the practice around that reality.",
+            "perf.direction.3.title": "Connect back to HRIS",
+            "perf.direction.3.body":
+                "What we design is meant to live alongside Xineon HRIS, not as a disconnected ritual.",
+            "perf.cta":
                 'Interested in early conversations? Email <a class="text-link" href="mailto:hello@xineon.io">hello@xineon.io</a>.',
 
             "privacy.title": "Privacy Policy — Xineon",
@@ -330,6 +373,9 @@
             "lang.aria": "언어",
             "lang.en": "EN",
             "lang.ko": "KO",
+
+            "common.soon": "준비 중",
+            "common.talk": "미리 이야기하기",
 
             "home.meta":
                 "Xineon은 복잡함보다 명확함을 중시하는 조직을 위한 모던 엔터프라이즈 소프트웨어를 만듭니다—가정하기 전에 이해하는 것에서 출발합니다.",
@@ -533,10 +579,20 @@
             "insight.hero.title": "사람 데이터가 말하는 것을 보다.",
             "insight.hero.subtitle":
                 "Xineon Insight는 HRIS에 이미 있는 것을 화면을 뒤지지 않고도 이해할 수 있게 돕습니다.",
-            "insight.soon.title": "준비 중",
-            "insight.soon.p1":
-                '<a class="text-link" href="hris.html">Xineon HRIS</a> 위에서, 조직의 흐름을 더 또렷하게 읽는 방법입니다—일상 기록 뒤에 있는 그림까지.',
-            "insight.soon.p2":
+            "insight.overview.title": "개요",
+            "insight.overview.p1":
+                "Xineon HRIS 위에서, 조직의 흐름을 더 또렷하게 읽는 방법입니다—일상 기록 뒤에 있는 그림과 질문까지.",
+            "insight.direction.title": "이런 방향으로",
+            "insight.direction.1.title": "그림을 읽기",
+            "insight.direction.1.body":
+                "사람과 운영 데이터의 패턴을—다른 스프레드시트로 내보내지 않고—드러냅니다.",
+            "insight.direction.2.title": "묻고, 보다",
+            "insight.direction.2.body":
+                "질문에서 시작해 더 또렷한 그림을 얻습니다—메뉴 미로가 아니라.",
+            "insight.direction.3.title": "HRIS에 뿌리내리기",
+            "insight.direction.3.body":
+                "Insight는 Xineon HRIS 위에 있어, 답은 이미 믿는 기록과 이어집니다.",
+            "insight.cta":
                 '미리 이야기하고 싶으시면 <a class="text-link" href="mailto:hello@xineon.io">hello@xineon.io</a>로 연락해 주세요.',
 
             "workplace.meta":
@@ -545,10 +601,20 @@
             "workplace.hero.title": "Workplace Systems",
             "workplace.hero.subtitle":
                 "인사·총무·경영지원처럼, 회사에서 반복적으로 필요한 프로그램을 만들어 드립니다.",
-            "workplace.soon.title": "준비 중",
-            "workplace.soon.p1":
+            "workplace.overview.title": "개요",
+            "workplace.overview.p1":
                 "요청, 승인, 인수인계처럼 반복되는 일—사람과 운영을 움직이게 하는 작은 시스템들. 조직이 실제로 일하는 방식에 맞춰 그 프로그램을 만듭니다.",
-            "workplace.soon.p2":
+            "workplace.direction.title": "이런 방향으로",
+            "workplace.direction.1.title": "반복되는 일",
+            "workplace.direction.1.body":
+                "요청, 승인, 인수인계—회사를 굴리는 루프들.",
+            "workplace.direction.2.title": "조직의 형태에 맞게",
+            "workplace.direction.2.body":
+                "이미 운영하는 방식에 맞춘 프로그램—일률 모듈이 아닙니다.",
+            "workplace.direction.3.title": "사람·운영 지원",
+            "workplace.direction.3.body":
+                "인사·총무·경영지원—일상 업무를 둘러싼 시스템에 집중합니다.",
+            "workplace.cta":
                 'Workplace Systems가 필요하시면 <a class="text-link" href="mailto:hello@xineon.io">hello@xineon.io</a>로 연락해 주세요.',
 
             "ats.meta":
@@ -556,12 +622,22 @@
             "ats.title": "Xineon ATS",
             "ats.hero.title": "복잡함 없는 채용.",
             "ats.hero.subtitle":
-                "Xineon ATS는 개발 중입니다—지원부터 오퍼까지 명확함이 유지되는 채용 관리.",
-            "ats.soon.title": "준비 중",
-            "ats.soon.p1":
-                'ATS도 <a class="text-link" href="hris.html">Xineon HRIS</a>와 같은 기준으로 만듭니다. 채용이 실제로 어떻게 돌아가는지 이해하고, 그 위에 시스템을 설계합니다.',
-            "ats.soon.p2":
-                '얼리 액세스나 채용 워크플로에 대한 대화가 필요하시면 <a class="text-link" href="mailto:hello@xineon.io">hello@xineon.io</a>로 연락해 주세요.',
+                "Xineon ATS는 개발 중입니다—지원부터 오퍼까지 명확한 채용 추적.",
+            "ats.overview.title": "개요",
+            "ats.overview.p1":
+                "Xineon HRIS와 같은 기준으로 ATS를 만듭니다—채용이 실제로 어떻게 돌아가는지 이해한 뒤, 그 흐름에 맞게 설계합니다.",
+            "ats.direction.title": "이런 방향으로",
+            "ats.direction.1.title": "따라갈 수 있는 단계",
+            "ats.direction.1.body":
+                "지원부터 오퍼까지, 후보가 어디에 있는지 보이는 파이프라인.",
+            "ats.direction.2.title": "잡음 없는 후보",
+            "ats.direction.2.body":
+                "누구인지, 어디에 있는지, 다음이 무엇인지—채용 신호를 또렷하게.",
+            "ats.direction.3.title": "HRIS로 이어지기",
+            "ats.direction.3.body":
+                "합류 시 Xineon HRIS와 연결되도록—채용이 인수인계 공백으로 끝나지 않게.",
+            "ats.cta":
+                '채용 워크플로에 대해 이야기하거나 early access가 필요하시면 <a class="text-link" href="mailto:hello@xineon.io">hello@xineon.io</a>로 연락해 주세요.',
 
             "payroll.meta":
                 "Xineon 급여는 Xineon HRIS add-on입니다—근태·휴가와 연결된 급여 정산과 명세서, 스프레드시트 미로 없이.",
@@ -595,10 +671,20 @@
             "perf.hero.title": "성과 스튜디오 (맞춤)",
             "perf.hero.subtitle":
                 "일반적인 리뷰 도구가 아닙니다—조직이 실제로 일하는 방식에 맞는 성과 체계를 함께 설계하고 분석합니다.",
-            "perf.soon.title": "준비 중",
-            "perf.soon.p1":
-                'HRIS에는 가벼운 목표·리뷰용 <strong>성과 관리 (기본)</strong>이 포함됩니다. 성과 스튜디오는 별도입니다—현황을 매핑하고, 성과 운영 방식을 설계·다듬은 뒤 <a class="text-link" href="hris.html">Xineon HRIS</a>와 연결합니다.',
-            "perf.soon.p2":
+            "perf.overview.title": "개요",
+            "perf.overview.p1":
+                "HRIS에는 가벼운 목표·리뷰용 성과 관리 (기본)이 포함됩니다. 성과 스튜디오는 별도입니다—현황을 매핑하고, 성과 운영 방식을 설계·다듬은 뒤 Xineon HRIS와 연결합니다.",
+            "perf.direction.title": "이런 방향으로",
+            "perf.direction.1.title": "Basic을 넘어",
+            "perf.direction.1.body":
+                "HRIS의 가벼운 목표·리뷰와 구분되는, 더 깊은 맞춤 경로.",
+            "perf.direction.2.title": "함께 설계",
+            "perf.direction.2.body":
+                "팀이 방향을 잡고 성장하는 방식을 매핑한 뒤, 그 현실에 맞게 프랙티스를 만듭니다.",
+            "perf.direction.3.title": "HRIS로 다시 연결",
+            "perf.direction.3.body":
+                "설계한 것은 Xineon HRIS와 함께 쓰이도록—동떨어진 의식이 아니라.",
+            "perf.cta":
                 '미리 이야기하고 싶으시면 <a class="text-link" href="mailto:hello@xineon.io">hello@xineon.io</a>로 메일을 보내 주세요.',
 
             "privacy.title": "개인정보처리방침 — Xineon",
