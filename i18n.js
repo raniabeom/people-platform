@@ -34,6 +34,12 @@
             "common.soon": "Coming soon",
             "common.talk": "Talk early",
 
+            "viz.payRun": "Pay run",
+            "viz.applied": "Applied",
+            "viz.screen": "Screen",
+            "viz.offer": "Offer",
+            "viz.q1Goals": "Q1 Goals",
+
             "home.meta":
                 "Xineon builds modern enterprise software for organizations that value clarity over complexity—grounded in understanding before assumptions.",
             "home.title": "Xineon",
@@ -351,10 +357,10 @@
             "nav.home": "홈",
             "nav.product": "제품",
             "nav.hris": "HRIS",
-            "nav.payroll": "급여",
+            "nav.payroll": "Payroll",
             "nav.insight": "Insight",
             "nav.ats": "ATS",
-            "nav.performance": "성과 스튜디오",
+            "nav.performance": "Performance Studio",
             "nav.workplace": "Workplace Systems",
             "nav.pricing": "가격",
             "nav.company": "회사",
@@ -377,8 +383,14 @@
             "common.soon": "준비 중",
             "common.talk": "미리 이야기하기",
 
+            "viz.payRun": "급여 정산",
+            "viz.applied": "지원",
+            "viz.screen": "서류",
+            "viz.offer": "오퍼",
+            "viz.q1Goals": "1분기 목표",
+
             "home.meta":
-                "Xineon은 복잡함보다 명확함을 중시하는 조직을 위한 모던 엔터프라이즈 소프트웨어를 만듭니다—가정하기 전에 이해하는 것에서 출발합니다.",
+                "Xineon은 복잡함보다 명확함을 중시하는 조직을 위한 모던 엔터프라이즈 소프트웨어를 만듭니다. 가정하기 전에 이해하는 것에서 출발합니다.",
             "home.title": "Xineon",
             "home.hero.title": "가정을 앞세우지 않고, <br>이해에서 출발합니다.",
             "home.hero.subtitle":
@@ -390,15 +402,15 @@
             "home.products.hris.body":
                 "임직원·조직·휴가·근태를 위한 하나의 시스템.",
             "home.products.hris.cta": "HRIS 보기",
-            "home.products.payroll.title": "급여",
+            "home.products.payroll.title": "Payroll",
             "home.products.payroll.body":
-                "급여 정산과 명세서를 위한 add-on—HRIS와 연결됩니다.",
-            "home.products.payroll.cta": "급여 보기",
+                "급여 정산과 명세서를 위한 add-on입니다. HRIS와 연결됩니다.",
+            "home.products.payroll.cta": "Payroll 보기",
             "home.products.insight.title": "Insight",
-            "home.products.insight.body": "사람 데이터가 말하는 것을 더 또렷하게.",
+            "home.products.insight.body": "사람·조직 데이터를 더 또렷하게 읽도록 돕습니다.",
             "home.products.ats.title": "ATS",
-            "home.products.ats.body": "잡음 없는 채용 워크플로.",
-            "home.products.performance.title": "성과 스튜디오",
+            "home.products.ats.body": "복잡함 없는 채용 워크플로.",
+            "home.products.performance.title": "Performance Studio",
             "home.products.performance.body": "함께 설계·분석하는 맞춤형 목표와 리뷰.",
             "home.products.workplace.title": "Workplace Systems",
             "home.products.workplace.body": "매달 반복되는 업무를 위한 맞춤 프로그램.",
@@ -409,22 +421,22 @@
             "home.method.cta": "회사 소개",
 
             "company.meta":
-                "Xineon은 Noesis(이해·인식)—만들기 전에 이해하기—와 발견·이해·구축의 방식에 뿌리를 둔 엔터프라이즈 소프트웨어 회사입니다.",
-            "company.title": "회사 — Xineon",
+                "Xineon은 Noesis(이해·인식), 즉 만들기 전에 이해하기와 발견·이해·구축의 방식에 뿌리를 둔 엔터프라이즈 소프트웨어 회사입니다.",
+            "company.title": "회사 · Xineon",
             "company.hero.title": "명확함을 중시하는 조직을 위해.",
             "company.hero.subtitle":
-                "Xineon은 복잡함을 명확함으로 바꾸는 데 집중하는 엔터프라이즈 소프트웨어 회사입니다—신중하게 설계된 시스템으로, 하나씩.",
+                "Xineon은 복잡함을 명확함으로 바꾸는 데 집중하는 엔터프라이즈 소프트웨어 회사입니다. 신중하게 설계된 시스템을 하나씩 만듭니다.",
             "company.name.title": "이름",
-            "company.name.alt": "Xineon — 부드러운 블루 글로우가 있는 화이트 레터폼",
+            "company.name.alt": "Xineon · 부드러운 블루 글로우가 있는 화이트 레터폼",
             "company.name.p1":
-                "그리스 철학의 Noesis(이해·인식)—순수한 지적 이해의 행위—에서 영감을 받은 Xineon은, 만들기 전에 이해하는 것을 약속합니다.",
+                "그리스 철학의 Noesis(이해·인식), 순수한 지적 이해의 행위에서 영감을 받은 Xineon은 만들기 전에 이해하는 것을 약속합니다.",
             "company.name.p2":
                 "이 이름은 소프트웨어가 바탕해야 할 것이 무엇인지 담습니다. 일이 ‘어떻게 되어야 한다’는 가정이 아니라, 실제로 어떻게 돌아가는지에 대한 진짜 이해입니다.",
             "company.logo.title": "로고",
             "company.logo.altColor": "풀컬러 Xineon 로고 조합",
             "company.logo.altBlack": "블랙 Xineon 로고 조합",
             "company.logo.p1":
-                "우리의 마크는 창과 하나의 파란 커서입니다—소프트웨어는 일을 담는 맑은 프레임이고, 이해는 그 초점입니다. 로고 조합은 그 마크와 Xineon 워드마크, 그리고 우리의 문장—가정을 앞세우지 않고, 이해에서 출발합니다—을 함께 둡니다.",
+                "우리의 마크는 창과 하나의 파란 커서입니다. 소프트웨어는 일을 담는 맑은 프레임이고, 이해는 그 초점입니다. 로고 조합은 그 마크와 Xineon 워드마크, 그리고 우리의 문장(가정을 앞세우지 않고, 이해에서 출발합니다)을 함께 둡니다.",
             "company.believe.title": "우리가 믿는 것",
             "company.believe.p1":
                 "명확함은 있으면 좋은 것이 아닙니다. 사람들이 신뢰하고, 받아들이며, 매일 의지하는 소프트웨어의 기초입니다. 시스템이 명확하면 팀은 더 빠르게 움직이고, 더 나은 결정을 내리며, 도구와 씨름하는 시간을 줄입니다.",
@@ -432,7 +444,7 @@
             "company.explore.title": "발견",
             "company.explore.lead": "우리는 진짜 문제를 발견하는 것에서 시작합니다.",
             "company.explore.p1":
-                "솔루션을 제안하기 전에, 우리는 듣습니다—시스템을 쓰는 사람, 유지하는 팀, 그리고 매일의 일을 규정하는 제약까지. 다이어그램이 말하는 흐름이 아니라, 실제로 흘러가는 방식을 그립니다.",
+                "솔루션을 제안하기 전에, 우리는 듣습니다. 시스템을 쓰는 사람, 유지하는 팀, 그리고 매일의 일을 규정하는 제약까지. 다이어그램이 말하는 흐름이 아니라, 실제로 흘러가는 방식을 그립니다.",
             "company.explore.p2":
                 "발견이란 더 나은 질문을 던지고, 보이지 않게 된 마찰을 드러내며, 기능으로 바로 뛰어들고 싶은 충동을 참는 일입니다. 목표는 무엇이 깨져 있고, 무엇이 작동하며, 무엇이 가장 중요한지에 대한 선명한 그림입니다.",
             "company.understand.title": "이해",
@@ -441,7 +453,7 @@
             "company.understand.p1":
                 "이해는 요구사항을 모으는 것 이상입니다. 가정과 사실을 가르고, 원인과 결과를 추적하며, 표면의 복잡함 아래 있는 구조를 찾는 일입니다.",
             "company.understand.p2":
-                "그리스 철학의 Noesis(이해·인식)—순수한 지적 이해—에서 영감을 받아, 우리는 명확함을 하나의 결과물로 다룹니다. 문제를 진정으로 이해하면, 올바른 솔루션은 종종 분명해집니다.",
+                "그리스 철학의 Noesis(이해·인식), 순수한 지적 이해에서 영감을 받아, 우리는 명확함을 하나의 결과물로 다룹니다. 문제를 진정으로 이해하면, 올바른 솔루션은 종종 분명해집니다.",
             "company.build.title": "구축",
             "company.build.lead": "오래 남는 가치를 만드는 소프트웨어를 구축합니다.",
             "company.build.p1":
@@ -450,27 +462,27 @@
                 "결과는 조직과 함께 성장할 수 있는 소프트웨어입니다. 명확한 인터페이스, 신중한 엔지니어링, 그리고 끊임없는 우회를 요구하기보다 시간이 지날수록 신뢰를 쌓는 시스템.",
             "company.products.title": "우리가 만드는 것",
             "company.products.p1":
-                '우리는 복잡함보다 명확함을 중시하는 조직을 위한 모던 엔터프라이즈 소프트웨어를 만듭니다—먼저 <a class="text-link" href="hris.html">Xineon HRIS</a>와 <a class="text-link" href="payroll.html">Xineon 급여</a>부터.',
+                '우리는 복잡함보다 명확함을 중시하는 조직을 위한 모던 엔터프라이즈 소프트웨어를 만듭니다. 지금은 <a class="text-link" href="hris.html">Xineon HRIS</a>와 <a class="text-link" href="payroll.html">Xineon Payroll</a>부터 시작합니다.',
             "company.products.p2":
                 "우리가 출시하는 모든 제품은 같은 기준을 따릅니다. 신중한 엔지니어링, 깔끔한 인터페이스, 그리고 벤더가 생각하는 방식이 아니라 사람들이 실제로 일하는 방식에 대한 집중.",
 
             "about.meta":
-                "Xineon은 명확하게 생각하는 조직을 위한 엔터프라이즈 소프트웨어 회사입니다—그리스 철학의 Noesis 개념과, 만들기 전에 이해하는 약속에 뿌리를 둡니다.",
+                "Xineon은 명확하게 생각하는 조직을 위한 엔터프라이즈 소프트웨어 회사입니다. 그리스 철학의 Noesis 개념과, 만들기 전에 이해하는 약속에 뿌리를 둡니다.",
             "about.title": "Xineon 소개",
             "about.hero.title": "명확함을 중시하는 조직을 위해.",
             "about.hero.subtitle":
-                "Xineon은 복잡함을 명확함으로 바꾸는 데 집중하는 엔터프라이즈 소프트웨어 회사입니다—신중하게 설계된 시스템으로, 하나씩.",
+                "Xineon은 복잡함을 명확함으로 바꾸는 데 집중하는 엔터프라이즈 소프트웨어 회사입니다. 신중하게 설계된 시스템을 하나씩 만듭니다.",
             "about.name.title": "이름",
-            "about.name.alt": "Xineon — 부드러운 블루 글로우가 있는 화이트 레터폼",
+            "about.name.alt": "Xineon · 부드러운 블루 글로우가 있는 화이트 레터폼",
             "about.name.p1":
-                "그리스 철학의 Noesis(이해·인식)—순수한 지적 이해의 행위—에서 영감을 받은 Xineon은, 만들기 전에 이해하는 것을 약속합니다.",
+                "그리스 철학의 Noesis(이해·인식), 순수한 지적 이해의 행위에서 영감을 받은 Xineon은 만들기 전에 이해하는 것을 약속합니다.",
             "about.name.p2":
                 "이 이름은 소프트웨어가 바탕해야 할 것이 무엇인지 담습니다. 일이 ‘어떻게 되어야 한다’는 가정이 아니라, 실제로 어떻게 돌아가는지에 대한 진짜 이해입니다.",
             "about.logo.title": "로고",
             "about.logo.altColor": "풀컬러 Xineon 로고 조합",
             "about.logo.altBlack": "블랙 Xineon 로고 조합",
             "about.logo.p1":
-                "우리의 마크는 창과 하나의 파란 커서입니다—소프트웨어는 일을 담는 맑은 프레임이고, 이해는 그 초점입니다. 로고 조합은 그 마크와 Xineon 워드마크, 그리고 우리의 문장—가정을 앞세우지 않고, 이해에서 출발합니다—을 함께 둡니다.",
+                "우리의 마크는 창과 하나의 파란 커서입니다. 소프트웨어는 일을 담는 맑은 프레임이고, 이해는 그 초점입니다. 로고 조합은 그 마크와 Xineon 워드마크, 그리고 우리의 문장(가정을 앞세우지 않고, 이해에서 출발합니다)을 함께 둡니다.",
             "about.believe.title": "우리가 믿는 것",
             "about.believe.p1":
                 "우리는 훌륭한 소프트웨어가 가정이 아닌 깊은 이해에서 시작한다고 믿습니다. 너무 많은 도구가 일반적인 워크플로를 중심으로 만들어지고, 만능 솔루션처럼 팔립니다. 우리는 다른 길을 갑니다.",
@@ -485,11 +497,11 @@
             "about.work.p1":
                 "신중한 엔지니어링을 통해 복잡함을 명확함으로 바꾸고, 사람과 조직이 더 잘 일할 수 있도록 돕는 소프트웨어를 만듭니다.",
             "about.work.p2":
-                '우리는 제품을 쓰는 팀과 가까이 일합니다—듣고, 반복하고, 실제 피드백으로 개선합니다. 프로세스는 <a class="text-link" href="company.html#how-we-work">회사</a> 페이지에 자세히 담겨 있습니다. 발견하고, 이해하고, 구축합니다.',
+                '우리는 제품을 쓰는 팀과 가까이 일합니다. 듣고, 반복하고, 실제 피드백으로 개선합니다. 프로세스는 <a class="text-link" href="company.html#how-we-work">회사</a> 페이지에 자세히 담겨 있습니다. 발견하고, 이해하고, 구축합니다.',
 
             "philosophy.meta":
-                "Xineon은 진짜 문제를 발견하고, 깊은 이해를 추구하며, 오래 남는 가치를 만드는 소프트웨어를 구축합니다—가정보다 명확함에 뿌리를 둡니다.",
-            "philosophy.title": "우리의 철학 — Xineon",
+                "Xineon은 진짜 문제를 발견하고, 깊은 이해를 추구하며, 오래 남는 가치를 만드는 소프트웨어를 구축합니다. 가정보다 명확함에 뿌리를 둡니다.",
+            "philosophy.title": "우리의 철학 · Xineon",
             "philosophy.hero.title": "이해에서 출발하고, 그다음 구축합니다.",
             "philosophy.hero.subtitle":
                 "우리의 일은 단순한 순서를 따릅니다. 진짜 문제를 발견하고, 깊이 이해한 뒤, 의도를 가지고 구축합니다.",
@@ -497,7 +509,7 @@
             "philosophy.explore.title": "발견",
             "philosophy.explore.lead": "우리는 진짜 문제를 발견하는 것에서 시작합니다.",
             "philosophy.explore.p1":
-                "솔루션을 제안하기 전에, 우리는 듣습니다—시스템을 쓰는 사람, 유지하는 팀, 그리고 매일의 일을 규정하는 제약까지. 다이어그램이 말하는 흐름이 아니라, 실제로 흘러가는 방식을 그립니다.",
+                "솔루션을 제안하기 전에, 우리는 듣습니다. 시스템을 쓰는 사람, 유지하는 팀, 그리고 매일의 일을 규정하는 제약까지. 다이어그램이 말하는 흐름이 아니라, 실제로 흘러가는 방식을 그립니다.",
             "philosophy.explore.p2":
                 "발견이란 더 나은 질문을 던지고, 보이지 않게 된 마찰을 드러내며, 기능으로 바로 뛰어들고 싶은 충동을 참는 일입니다. 목표는 무엇이 깨져 있고, 무엇이 작동하며, 무엇이 가장 중요한지에 대한 선명한 그림입니다.",
             "philosophy.understand.title": "이해",
@@ -506,7 +518,7 @@
             "philosophy.understand.p1":
                 "이해는 요구사항을 모으는 것 이상입니다. 가정과 사실을 가르고, 원인과 결과를 추적하며, 표면의 복잡함 아래 있는 구조를 찾는 일입니다.",
             "philosophy.understand.p2":
-                "그리스 철학의 Noesis(이해·인식)—순수한 지적 이해—에서 영감을 받아, 우리는 명확함을 하나의 결과물로 다룹니다. 문제를 진정으로 이해하면, 올바른 솔루션은 종종 분명해집니다.",
+                "그리스 철학의 Noesis(이해·인식), 순수한 지적 이해에서 영감을 받아, 우리는 명확함을 하나의 결과물로 다룹니다. 문제를 진정으로 이해하면, 올바른 솔루션은 종종 분명해집니다.",
             "philosophy.build.title": "구축",
             "philosophy.build.lead": "오래 남는 가치를 만드는 소프트웨어를 구축합니다.",
             "philosophy.build.p1":
@@ -516,7 +528,7 @@
 
             "contact.meta":
                 "Xineon에 문의하세요. 데모를 요청하거나, 조직에 명확함을 더하는 대화를 시작할 수 있습니다.",
-            "contact.title": "문의 — Xineon",
+            "contact.title": "문의 · Xineon",
             "contact.hero.title": "대화를 시작하세요.",
             "contact.hero.subtitle":
                 "Xineon HRIS를 살펴보고 계시든, 더 넓은 협력을 고민 중이시든, 이야기를 듣고 싶습니다.",
@@ -525,13 +537,13 @@
                 "조직에 명확함을 더할 준비가 되셨나요? 메시지를 보내 주시면 영업일 기준 이틀 안에 답변드립니다.",
             "contact.demo.title": "데모 문의",
             "contact.demo.p1":
-                "Xineon HRIS를 직접 보고 싶으신가요? 팀과 해결하고 싶은 과제를 알려 주세요—필요에 맞춘 데모를 준비하겠습니다.",
+                "Xineon HRIS를 직접 보고 싶으신가요? 팀과 해결하고 싶은 과제를 알려 주세요. 필요에 맞춘 데모를 준비하겠습니다.",
             "contact.demo.p2":
                 '<a class="text-link" href="mailto:hello@xineon.io">hello@xineon.io</a>로 메일 제목 “데모 문의”와 함께 조직에 대한 간단한 설명을 보내 주세요.',
 
             "pricing.meta":
-                "Xineon 가격 — 복잡함 없이 명확함을 원하는 팀을 위한 플랜. 자세한 내용은 준비 중입니다.",
-            "pricing.title": "가격 — Xineon",
+                "Xineon 가격. 복잡함 없이 명확함을 원하는 팀을 위한 플랜입니다. 자세한 내용은 준비 중입니다.",
+            "pricing.title": "가격 · Xineon",
             "pricing.hero.title": "단순하고 명확한 가격.",
             "pricing.hero.subtitle":
                 "아직 플랜을 정리하는 중입니다. 그동안 팀에 대해 알려 주시면, 맞는 방향을 함께 살펴보겠습니다.",
@@ -547,19 +559,19 @@
             "hris.hero.title": "사람들이 실제로 일하는 방식을 위한 하나의 시스템.",
             "hris.overview.title": "개요",
             "hris.overview.p1":
-                "대부분의 HR 시스템은 그들의 구조에 맞추라고 합니다. Xineon HRIS는 조직이 이미 일하는 방식에서 시작해 — 그것을 한곳에 모읍니다.",
+                "대부분의 HR 시스템은 그들의 구조에 맞추라고 합니다. Xineon HRIS는 조직이 이미 일하는 방식에서 시작해, 그것을 한곳에 모읍니다.",
             "hris.mockup.alt":
-                "Xineon HRIS Employees — 스냅샷 지표와 임직원 디렉터리",
+                "Xineon HRIS Employees · 스냅샷 지표와 임직원 디렉터리",
             "hris.features.title": "핵심 기능",
             "hris.features.people.title": "임직원",
             "hris.features.people.body":
-                "팀이 실제로 쓰는 임직원 기록—명확하고, 최신 상태로, 바로 찾을 수 있게.",
+                "팀이 실제로 쓰는 임직원 기록입니다. 명확하고, 최신 상태로, 바로 찾을 수 있게.",
             "hris.features.organization.title": "조직",
             "hris.features.organization.body":
                 "회사가 실제로 일하는 구조와 맞춰진 조직도.",
             "hris.features.leave.title": "휴가 관리",
             "hris.features.leave.body":
-                "요청부터 승인, 오늘 누가 자리를 비웠는지까지—휴가를 명확하게 추적합니다.",
+                "요청부터 승인, 오늘 누가 자리를 비웠는지까지 휴가를 명확하게 추적합니다.",
             "hris.features.attendance.title": "근태",
             "hris.features.attendance.body":
                 "스프레드시트 우회 없이, 매일의 근태를 정확하게 기록합니다.",
@@ -568,86 +580,86 @@
                 "HR 문서와 기록을 한곳에 모아, 필요할 때 바로 꺼내 쓸 수 있게.",
             "hris.features.performance.title": "성과 관리 (기본)",
             "hris.features.performance.body":
-                "HRIS 안의 가벼운 목표·간단 리뷰—완전한 성과 체계는 아닙니다.",
+                "HRIS 안의 가벼운 목표·간단 리뷰입니다. 완전한 성과 체계는 아닙니다.",
             "hris.who.title": "이런 팀에 맞습니다",
             "hris.who.p1":
-                "50명 미만의 팀, 그리고 HR 프로세스가 아직 자리 잡아 가는 성장 중인 중소 규모 조직을 위해 만들었습니다. 이미 복잡하고 정착된 시스템으로 운영 중이라면, Xineon HRIS는 — 아직은 — 맞지 않을 수 있습니다.",
+                "50명 미만의 팀, 그리고 HR 프로세스가 아직 자리 잡아 가는 성장 중인 중소 규모 조직을 위해 만들었습니다. 이미 복잡하고 정착된 시스템으로 운영 중이라면, Xineon HRIS는 아직은 맞지 않을 수 있습니다.",
 
             "insight.meta":
-                "Xineon Insight — HRIS 데이터 위의 명확함. 준비 중입니다.",
+                "Xineon Insight. HRIS 데이터 위에서 조직의 흐름을 더 또렷하게 읽도록 돕습니다. 준비 중입니다.",
             "insight.title": "Xineon Insight",
-            "insight.hero.title": "사람 데이터가 말하는 것을 보다.",
+            "insight.hero.title": "HRIS 데이터, 더 또렷하게.",
             "insight.hero.subtitle":
-                "Xineon Insight는 HRIS에 이미 있는 것을 화면을 뒤지지 않고도 이해할 수 있게 돕습니다.",
+                "여러 화면을 뒤지지 않아도, HRIS에 이미 있는 내용을 이해할 수 있게 돕습니다.",
             "insight.overview.title": "개요",
             "insight.overview.p1":
-                "Xineon HRIS 위에서, 조직의 흐름을 더 또렷하게 읽는 방법입니다—일상 기록 뒤에 있는 그림과 질문까지.",
-            "insight.direction.title": "이런 방향으로",
-            "insight.direction.1.title": "그림을 읽기",
+                "Xineon HRIS 위에서 조직의 흐름을 읽습니다. 일상 기록 뒤에 있는 그림과 질문까지 이어지도록 설계합니다.",
+            "insight.direction.title": "우리가 향하는 방향",
+            "insight.direction.1.title": "패턴을 보기",
             "insight.direction.1.body":
-                "사람과 운영 데이터의 패턴을—다른 스프레드시트로 내보내지 않고—드러냅니다.",
-            "insight.direction.2.title": "묻고, 보다",
+                "사람과 운영 데이터의 패턴을 다른 스프레드시트로 내보내지 않고도 확인할 수 있게 합니다.",
+            "insight.direction.2.title": "질문에서 시작하기",
             "insight.direction.2.body":
-                "질문에서 시작해 더 또렷한 그림을 얻습니다—메뉴 미로가 아니라.",
-            "insight.direction.3.title": "HRIS에 뿌리내리기",
+                "메뉴를 헤매기보다, 질문에서 시작해 필요한 그림을 바로 얻도록 합니다.",
+            "insight.direction.3.title": "HRIS와 연결",
             "insight.direction.3.body":
                 "Insight는 Xineon HRIS 위에 있어, 답은 이미 믿는 기록과 이어집니다.",
             "insight.cta":
                 '미리 이야기하고 싶으시면 <a class="text-link" href="mailto:hello@xineon.io">hello@xineon.io</a>로 연락해 주세요.',
 
             "workplace.meta":
-                "Xineon Workplace Systems — 인사·총무·경영지원처럼 반복적으로 필요한 맞춤 프로그램. 준비 중입니다.",
+                "Xineon Workplace Systems. 인사·총무·경영지원처럼 반복적으로 필요한 맞춤 프로그램입니다. 준비 중입니다.",
             "workplace.title": "Xineon Workplace Systems",
             "workplace.hero.title": "Workplace Systems",
             "workplace.hero.subtitle":
                 "인사·총무·경영지원처럼, 회사에서 반복적으로 필요한 프로그램을 만들어 드립니다.",
             "workplace.overview.title": "개요",
             "workplace.overview.p1":
-                "요청, 승인, 인수인계처럼 반복되는 일—사람과 운영을 움직이게 하는 작은 시스템들. 조직이 실제로 일하는 방식에 맞춰 그 프로그램을 만듭니다.",
-            "workplace.direction.title": "이런 방향으로",
-            "workplace.direction.1.title": "반복되는 일",
+                "요청, 승인, 인수인계처럼 반복되는 일, 그리고 사람과 운영을 움직이게 하는 작은 시스템들. 조직이 실제로 일하는 방식에 맞춰 그 프로그램을 만듭니다.",
+            "workplace.direction.title": "우리가 향하는 방향",
+            "workplace.direction.1.title": "반복되는 업무",
             "workplace.direction.1.body":
-                "요청, 승인, 인수인계—회사를 굴리는 루프들.",
-            "workplace.direction.2.title": "조직의 형태에 맞게",
+                "요청·승인·인수인계처럼, 늘 반복되는 업무에 맞춥니다.",
+            "workplace.direction.2.title": "조직에 맞춰",
             "workplace.direction.2.body":
-                "이미 운영하는 방식에 맞춘 프로그램—일률 모듈이 아닙니다.",
-            "workplace.direction.3.title": "사람·운영 지원",
+                "이미 일하는 방식에 맞춘 프로그램입니다. 획일적인 모듈이 아닙니다.",
+            "workplace.direction.3.title": "인사·총무·경영지원",
             "workplace.direction.3.body":
-                "인사·총무·경영지원—일상 업무를 둘러싼 시스템에 집중합니다.",
+                "현장 업무와 맞닿은 시스템을 만듭니다.",
             "workplace.cta":
                 'Workplace Systems가 필요하시면 <a class="text-link" href="mailto:hello@xineon.io">hello@xineon.io</a>로 연락해 주세요.',
 
             "ats.meta":
-                "Xineon ATS — Xineon 플랫폼과 같은 명확함 우선 접근으로 만드는 채용 관리. 준비 중입니다.",
+                "Xineon ATS. Xineon 플랫폼과 같은 명확함 우선 접근으로 만드는 채용 관리입니다. 준비 중입니다.",
             "ats.title": "Xineon ATS",
             "ats.hero.title": "복잡함 없는 채용.",
             "ats.hero.subtitle":
-                "Xineon ATS는 개발 중입니다—지원부터 오퍼까지 명확한 채용 추적.",
+                "Xineon ATS는 개발 중입니다. 지원부터 오퍼까지 채용 추적을 명확하게 만듭니다.",
             "ats.overview.title": "개요",
             "ats.overview.p1":
-                "Xineon HRIS와 같은 기준으로 ATS를 만듭니다—채용이 실제로 어떻게 돌아가는지 이해한 뒤, 그 흐름에 맞게 설계합니다.",
-            "ats.direction.title": "이런 방향으로",
-            "ats.direction.1.title": "따라갈 수 있는 단계",
+                "Xineon HRIS와 같은 기준으로 ATS를 만듭니다. 채용이 실제로 어떻게 돌아가는지 이해한 뒤, 그 흐름에 맞게 설계합니다.",
+            "ats.direction.title": "우리가 향하는 방향",
+            "ats.direction.1.title": "한눈에 보이는 단계",
             "ats.direction.1.body":
-                "지원부터 오퍼까지, 후보가 어디에 있는지 보이는 파이프라인.",
-            "ats.direction.2.title": "잡음 없는 후보",
+                "지원부터 오퍼까지, 후보가 지금 어디에 있는지 보이는 파이프라인입니다.",
+            "ats.direction.2.title": "후보에 집중",
             "ats.direction.2.body":
-                "누구인지, 어디에 있는지, 다음이 무엇인지—채용 신호를 또렷하게.",
-            "ats.direction.3.title": "HRIS로 이어지기",
+                "누가 누구인지, 어디에 있는지, 다음이 무엇인지. 채용에 필요한 정보만 또렷하게 남깁니다.",
+            "ats.direction.3.title": "HRIS와 연결",
             "ats.direction.3.body":
-                "합류 시 Xineon HRIS와 연결되도록—채용이 인수인계 공백으로 끝나지 않게.",
+                "합류하면 Xineon HRIS로 자연스럽게 이어집니다. 채용이 인수인계 공백으로 끝나지 않습니다.",
             "ats.cta":
                 '채용 워크플로에 대해 이야기하거나 early access가 필요하시면 <a class="text-link" href="mailto:hello@xineon.io">hello@xineon.io</a>로 연락해 주세요.',
 
             "payroll.meta":
-                "Xineon 급여는 Xineon HRIS add-on입니다—근태·휴가와 연결된 급여 정산과 명세서, 스프레드시트 미로 없이.",
-            "payroll.title": "Xineon 급여",
+                "Xineon Payroll은 Xineon HRIS add-on입니다. 근태·휴가와 연결된 급여 정산과 명세서, 스프레드시트 미로 없이.",
+            "payroll.title": "Xineon Payroll",
             "payroll.hero.title": "명확함이 유지되는 급여.",
             "payroll.overview.title": "개요",
             "payroll.overview.p1":
-                'Xineon 급여는 <a class="text-link" href="hris.html">Xineon HRIS</a>의 add-on입니다. 이미 추적 중인 근태·휴가에서 시작해—별도 스프레드시트 없이 급여 정산과 명세서로 이어집니다.',
+                'Xineon Payroll은 <a class="text-link" href="hris.html">Xineon HRIS</a>의 add-on입니다. 이미 추적 중인 근태·휴가에서 시작해, 별도 스프레드시트 없이 급여 정산과 명세서로 이어집니다.',
             "payroll.mockup.alt":
-                "Xineon 급여 — 스냅샷 지표와 상태가 있는 급여 정산 목록",
+                "Xineon Payroll · 스냅샷 지표와 상태가 있는 급여 정산 목록",
             "payroll.features.title": "핵심 기능",
             "payroll.features.runs.title": "급여 정산",
             "payroll.features.runs.body":
@@ -666,29 +678,29 @@
                 "이미 Xineon HRIS를 쓰는 팀, 매달 맞추는 두 번째 시스템이 아니라 명확한 add-on으로 급여를 원하는 팀을 위해 만들었습니다.",
 
             "perf.meta":
-                "Xineon 성과 스튜디오 (맞춤) — 목표·리뷰 체계를 함께 설계하고 분석합니다. 준비 중입니다.",
-            "perf.title": "Xineon 성과 스튜디오",
-            "perf.hero.title": "성과 스튜디오 (맞춤)",
+                "Xineon Performance Studio (Bespoke). 목표·리뷰 체계를 함께 설계하고 분석합니다. 준비 중입니다.",
+            "perf.title": "Xineon Performance Studio",
+            "perf.hero.title": "Performance Studio (Bespoke)",
             "perf.hero.subtitle":
-                "일반적인 리뷰 도구가 아닙니다—조직이 실제로 일하는 방식에 맞는 성과 체계를 함께 설계하고 분석합니다.",
+                "일반적인 리뷰 도구가 아닙니다. 조직이 실제로 일하는 방식에 맞는 성과 체계를 함께 설계하고 분석합니다.",
             "perf.overview.title": "개요",
             "perf.overview.p1":
-                "HRIS에는 가벼운 목표·리뷰용 성과 관리 (기본)이 포함됩니다. 성과 스튜디오는 별도입니다—현황을 매핑하고, 성과 운영 방식을 설계·다듬은 뒤 Xineon HRIS와 연결합니다.",
-            "perf.direction.title": "이런 방향으로",
+                "HRIS에는 가벼운 목표·리뷰용 Performance (Basic)가 포함됩니다. Performance Studio는 별도입니다. 현황을 매핑하고, 성과 운영 방식을 설계·다듬은 뒤 Xineon HRIS와 연결합니다.",
+            "perf.direction.title": "우리가 향하는 방향",
             "perf.direction.1.title": "Basic을 넘어",
             "perf.direction.1.body":
-                "HRIS의 가벼운 목표·리뷰와 구분되는, 더 깊은 맞춤 경로.",
+                "HRIS의 가벼운 목표·리뷰를 넘어, 조직에 맞춘 더 깊은 성과 체계입니다.",
             "perf.direction.2.title": "함께 설계",
             "perf.direction.2.body":
-                "팀이 방향을 잡고 성장하는 방식을 매핑한 뒤, 그 현실에 맞게 프랙티스를 만듭니다.",
-            "perf.direction.3.title": "HRIS로 다시 연결",
+                "팀이 목표를 세우고 성장하는 방식을 먼저 파악한 뒤, 그 현실에 맞는 운영 방식을 만듭니다.",
+            "perf.direction.3.title": "HRIS와 함께 쓰기",
             "perf.direction.3.body":
-                "설계한 것은 Xineon HRIS와 함께 쓰이도록—동떨어진 의식이 아니라.",
+                "성과 운영은 Xineon HRIS로 이어집니다. 독립적인 모듈이 아닙니다.",
             "perf.cta":
                 '미리 이야기하고 싶으시면 <a class="text-link" href="mailto:hello@xineon.io">hello@xineon.io</a>로 메일을 보내 주세요.',
 
-            "privacy.title": "개인정보처리방침 — Xineon",
-            "terms.title": "이용약관 — Xineon",
+            "privacy.title": "개인정보처리방침 · Xineon",
+            "terms.title": "이용약관 · Xineon",
         },
     };
 
