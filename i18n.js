@@ -61,6 +61,7 @@
             "home.products.insight.body": "A clearer read on what your people data is saying.",
             "home.products.ats.title": "ATS",
             "home.products.ats.body": "Hiring workflows without the noise.",
+            "home.products.ats.cta": "Explore ATS",
             "home.products.performance.title": "Performance Studio",
             "home.products.performance.body": "Bespoke goals and reviews—designed and analyzed with you.",
             "home.products.workplace.title": "Workplace Systems",
@@ -229,12 +230,24 @@
             "hris.features.documents.title": "Documents & Records",
             "hris.features.documents.body":
                 "HR documents and records kept together, ready when they're needed.",
-            "hris.features.performance.title": "Performance (Basic)",
+            "hris.features.performance.title": "Performance",
             "hris.features.performance.body":
-                "Lightweight goals and simple reviews inside HRIS—not a full performance system.",
+                "Essential goals and reviews built directly into your core people records.",
+            "hris.features.performance.more":
+                'For advanced performance workflows, explore <a class="text-link" href="performance.html">Performance Studio</a>.',
+            "hris.practice.title": "How it works",
+            "hris.practice.1.title": "One source of truth",
+            "hris.practice.1.body":
+                "Employee, organization, attendance, leave, and documents stay connected.",
+            "hris.practice.2.title": "Less administrative work",
+            "hris.practice.2.body":
+                "Common HR workflows live in one system, instead of spreadsheets and disconnected tools.",
+            "hris.practice.3.title": "Built to grow",
+            "hris.practice.3.body":
+                "Start with core HR, then add Payroll, ATS, and other Xineon products as you need them.",
             "hris.who.title": "Who it's for",
             "hris.who.p1":
-                "Built for teams under 50, and growing small or mid-sized companies where HR processes are still taking shape. If your organization already runs on complex, established systems, Xineon HRIS may not be the right fit — yet.",
+                "Built for growing organizations that need structure without unnecessary complexity. Xineon works especially well for small and mid-sized teams building more consistent people operations.",
 
             "insight.meta":
                 "Xineon Insight — clarity on top of your HRIS data. Coming soon.",
@@ -281,11 +294,11 @@
                 'Want to talk about a workplace system? Reach us at <a class="text-link" href="mailto:hello@xineon.io">hello@xineon.io</a>.',
 
             "ats.meta":
-                "Xineon ATS — applicant tracking built with the same clarity-first approach as the rest of the Xineon platform. Coming soon.",
+                "Xineon ATS — applicant tracking built with the same clarity-first approach as the rest of the Xineon platform.",
             "ats.title": "Xineon ATS",
             "ats.hero.title": "Hiring, without the noise.",
             "ats.hero.subtitle":
-                "Xineon ATS is in development—applicant tracking that stays clear from first application to offer.",
+                "Applicant tracking that stays clear from first application to offer.",
             "ats.overview.title": "Overview",
             "ats.overview.p1":
                 "We are building ATS with the same standard as Xineon HRIS: understand how recruiting actually works, then design the system around it—not around generic funnel templates.",
@@ -326,7 +339,9 @@
                 "People, attendance, and leave stay connected—so payroll starts from facts, not re-entry.",
             "payroll.who.title": "Who it's for",
             "payroll.who.p1":
-                "Built for teams already on Xineon HRIS that want payroll as a clear add-on—not a second system to reconcile every month.",
+                "Built for teams that want payroll connected directly to their people, attendance, and leave data—without maintaining a separate system.",
+            "payroll.who.p2":
+                'Payroll works as an integrated add-on to <a class="text-link" href="hris.html">Xineon HRIS</a>.',
 
             "perf.meta":
                 "Xineon Performance Studio (Bespoke) — we design and analyze your goals and review system with you. Coming soon.",
@@ -410,6 +425,7 @@
             "home.products.insight.body": "사람·조직 데이터를 더 또렷하게 읽도록 돕습니다.",
             "home.products.ats.title": "ATS",
             "home.products.ats.body": "복잡함 없는 채용 워크플로.",
+            "home.products.ats.cta": "ATS 보기",
             "home.products.performance.title": "Performance Studio",
             "home.products.performance.body": "함께 설계·분석하는 맞춤형 목표와 리뷰.",
             "home.products.workplace.title": "Workplace Systems",
@@ -578,12 +594,24 @@
             "hris.features.documents.title": "문서 & 기록",
             "hris.features.documents.body":
                 "HR 문서와 기록을 한곳에 모아, 필요할 때 바로 꺼내 쓸 수 있게.",
-            "hris.features.performance.title": "성과 관리 (기본)",
+            "hris.features.performance.title": "Performance",
             "hris.features.performance.body":
-                "HRIS 안의 가벼운 목표·간단 리뷰입니다. 완전한 성과 체계는 아닙니다.",
+                "임직원 기록 안에서 바로 쓰는 기본 목표와 리뷰입니다.",
+            "hris.features.performance.more":
+                '더 깊은 성과 운영이 필요하면 <a class="text-link" href="performance.html">Performance Studio</a>를 살펴보세요.',
+            "hris.practice.title": "작동 방식",
+            "hris.practice.1.title": "기록이 한곳에",
+            "hris.practice.1.body":
+                "임직원·조직·근태·휴가·문서가 서로 이어진 상태로 남습니다.",
+            "hris.practice.2.title": "반복 업무를 줄입니다",
+            "hris.practice.2.body":
+                "흔한 HR 업무를 스프레드시트와 흩어진 도구 대신 한 시스템에서 처리합니다.",
+            "hris.practice.3.title": "필요할 때 더합니다",
+            "hris.practice.3.body":
+                "핵심 HR부터 시작하고, 필요해지면 Payroll, ATS 등 Xineon 제품을 더합니다.",
             "hris.who.title": "이런 팀에 맞습니다",
             "hris.who.p1":
-                "50명 미만의 팀, 그리고 HR 프로세스가 아직 자리 잡아 가는 성장 중인 중소 규모 조직을 위해 만들었습니다. 이미 복잡하고 정착된 시스템으로 운영 중이라면, Xineon HRIS는 아직은 맞지 않을 수 있습니다.",
+                "불필요한 복잡함 없이 구조가 필요한 성장 조직을 위해 만들었습니다. 사람 운영을 더 일관되게 잡아 가는 중소 규모 팀에 특히 맞습니다.",
 
             "insight.meta":
                 "Xineon Insight. HRIS 데이터 위에서 조직의 흐름을 더 또렷하게 읽도록 돕습니다. 준비 중입니다.",
@@ -630,11 +658,11 @@
                 'Workplace Systems가 필요하시면 <a class="text-link" href="mailto:hello@xineon.io">hello@xineon.io</a>로 연락해 주세요.',
 
             "ats.meta":
-                "Xineon ATS. Xineon 플랫폼과 같은 명확함 우선 접근으로 만드는 채용 관리입니다. 준비 중입니다.",
+                "Xineon ATS. Xineon 플랫폼과 같은 명확함 우선 접근으로 만드는 채용 관리입니다.",
             "ats.title": "Xineon ATS",
             "ats.hero.title": "복잡함 없는 채용.",
             "ats.hero.subtitle":
-                "Xineon ATS는 개발 중입니다. 지원부터 오퍼까지 채용 추적을 명확하게 만듭니다.",
+                "지원부터 오퍼까지 채용 추적을 명확하게 만듭니다.",
             "ats.overview.title": "개요",
             "ats.overview.p1":
                 "Xineon HRIS와 같은 기준으로 ATS를 만듭니다. 채용이 실제로 어떻게 돌아가는지 이해한 뒤, 그 흐름에 맞게 설계합니다.",
@@ -675,7 +703,9 @@
                 "임직원·근태·휴가가 연결되어, 급여는 재입력이 아니라 사실에서 시작합니다.",
             "payroll.who.title": "이런 팀에 맞습니다",
             "payroll.who.p1":
-                "이미 Xineon HRIS를 쓰는 팀, 매달 맞추는 두 번째 시스템이 아니라 명확한 add-on으로 급여를 원하는 팀을 위해 만들었습니다.",
+                "임직원·근태·휴가 데이터에 바로 연결된 급여를 원하는 팀을 위해 만들었습니다. 따로 유지하는 두 번째 시스템은 필요 없습니다.",
+            "payroll.who.p2":
+                'Payroll은 <a class="text-link" href="hris.html">Xineon HRIS</a>에 붙는 통합 add-on입니다.',
 
             "perf.meta":
                 "Xineon Performance Studio (Bespoke). 목표·리뷰 체계를 함께 설계하고 분석합니다. 준비 중입니다.",

@@ -792,6 +792,7 @@ body.nav-open {
 .who-title,
 .philosophy-title,
 .philosophy-step h3,
+.practice-points article h3,
 .footer-label {
     font-family: "Geist Mono", monospace;
     font-size: 17px;
@@ -806,6 +807,7 @@ body.nav-open {
 .who-title::before,
 .philosophy-title::before,
 .philosophy-step h3::before,
+.practice-points article h3::before,
 .footer-label::before {
     content: "> ";
 }
@@ -825,7 +827,8 @@ body.nav-open {
     color: var(--color-gray-500);
 }
 
-.about-body p + p {
+.about-body p + p,
+.who-body p + p {
     margin-top: 22px;
 }
 
@@ -1704,6 +1707,14 @@ body.nav-open {
     font-weight: 600;
     letter-spacing: -0.02em;
     color: var(--color-gray-900);
+    margin-bottom: 6px;
+}
+
+.practice-points article h3 {
+    font-size: 17px;
+    font-weight: 500;
+    letter-spacing: 0;
+    color: var(--color-gray-500);
     margin-bottom: 6px;
 }
 
